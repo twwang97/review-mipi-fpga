@@ -1,0 +1,15 @@
+# Net-class constraints for import into a constraint manager.
+# Geometry is a first-pass closed-form value; the fabricator's field solver sets the final width.
+net_class,members,layers,width_mm,gap_mm,impedance_ohm,tolerance_pct,intra_pair_mm,to_clock_mm,notes
+MIPI_HS,MIPI_CLK/D0..D3 P/N,L1,0.100,0.125,100 diff,10,0.05,2.5,microstrip; no via transitions between BGA land and connector land
+DDR3L_DQ,DQ[15:0] DM UDQS LDQS,L3/L8,0.120,-,40 SE,10,-,0.6,match to the DQS of its own byte lane only
+DDR3L_DQS,LDQS/UDQS P/N CK P/N,L3/L8,0.100,0.090,80 diff,10,0.13,-,
+DDR3L_ADDR,A[..] BA[..] RAS CAS WE CS CKE ODT,L3/L8,0.120,-,40 SE,10,-,2.5,to CK; single device point-to-point; no fly-by
+RGMII_TX,GTX_CLK TXD[3:0] TX_CTL,L8,0.080,-,50 SE,10,-,2.5,match to GTX_CLK; DRIVE=4 if timing closes
+RGMII_RX,RX_CLK RXD[3:0] RX_CTL,L8,0.080,-,50 SE,10,-,2.5,match to RX_CLK; never match TX to RX
+CLK_SINGLE,CAM_EXTCLK CLK_OUT_25M XO_OUT,L1/L8,0.125,-,50 SE,10,-,-,ground on both sides for the full run
+CTRL_SLOW,MDC MDIO RESET_N INT_N I2C TRIGGER FLASH,any,0.125,-,-,-,-,-,no impedance control; keep clear of MIPI by 5x dielectric height
+PWR_5V,+5V,L6,-,-,-,-,-,-,2.3 A; 1 oz copper; minimum 2 mm wide pour
+PWR_CORE,VCC_1V0,L5,-,-,-,-,-,-,PDN target 100 mohm to 200 MHz
+PWR_DDR,VCC_1V35,L5,-,-,-,-,-,-,PDN target 169 mohm
+PWR_ANALOG,+3V3_CAM +1V8_CAM,L6,-,-,-,-,-,-,pi filtered at J2; keep away from switching nodes

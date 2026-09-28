@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1000" width="1280" height="1000" role="img" aria-label="Optical chain, MTF against f-number, and chief-ray-angle matching">
+<style>
+  .bg{fill:#F6F8FA}
+  .t{font-family:'IBM Plex Sans','Inter','Helvetica Neue',Arial,sans-serif;fill:#16202A}
+  .m{font-family:'IBM Plex Mono','Roboto Mono',Menlo,Consolas,monospace;fill:#16202A}
+  .title{font-size:23px;font-weight:600}
+  .sub{font-size:12.5px;fill:#5A6B78}
+  .sec{font-size:12.5px;font-weight:600;fill:#41525E}
+  .secsub{font-size:10px;fill:#7A8892}
+  .blk2{font-size:10.5px;font-weight:600}
+  .pn{font-size:9.5px;fill:#61727E}
+  .key{font-size:10.5px;fill:#243441}
+  .keyb{font-size:10.5px;font-weight:600;fill:#16202A}
+  .mono{font-size:10px;font-family:'IBM Plex Mono','Roboto Mono',Menlo,Consolas,monospace;fill:#243441}
+  .monob{font-size:10px;font-weight:600;font-family:'IBM Plex Mono','Roboto Mono',Menlo,Consolas,monospace;fill:#16202A}
+  .ax{font-size:9.5px;fill:#7A8892}
+</style>
+<rect class="bg" x="0" y="0" width="1280" height="1000"/>
+<text class="t title" x="34.0" y="44.0" text-anchor="start">Optical chain — what a 3.0 µm global-shutter pixel demands of a lens</text>
+<text class="t sub" x="34.0" y="66.0" text-anchor="start">The sensor was chosen in Part 2 for its global shutter and frame rate. Those choices set a Nyquist</text>
+<text class="t sub" x="34.0" y="84.0" text-anchor="start">frequency, an image circle and a chief-ray angle, and between them they rule out most M12 lenses.</text>
+<text class="t sub" x="34.0" y="102.0" text-anchor="start">Numbers are for the AR0234CS as specified in Part 2: 1920 × 1200, 3.0 µm pixel, 1/2.6 inch format.</text>
+<text class="t sec" x="34.0" y="132.0" text-anchor="start">A · THE CHAIN</text>
+<text class="t secsub" x="34.0" y="147.0" text-anchor="start">object → M12 lens → cover glass → microlens array → photodiode</text>
+<rect x="34.0" y="162.0" width="600.0" height="210.0" rx="4" fill="#FFFFFF" stroke="#C3D0D8" stroke-width="1.0"/>
+<rect x="56.0" y="210.0" width="40.0" height="104.0" rx="4" fill="#EFF8F3" stroke="#84B9A2" stroke-width="1.0"/>
+<text class="t pn" x="76.0" y="332.0" text-anchor="middle">object</text>
+<text class="t pn" x="76.0" y="346.0" text-anchor="middle">FOV 200 mm</text>
+<ellipse cx="300" cy="262" rx="18" ry="46" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.6"/>
+<text class="t pn" x="300.0" y="332.0" text-anchor="middle">M12 lens</text>
+<text class="t pn" x="300.0" y="346.0" text-anchor="middle">f = 8 mm, F/2.8</text>
+<rect x="470.0" y="236.0" width="8.0" height="52.0" rx="1" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<text class="t pn" x="474.0" y="222.0" text-anchor="middle">cover</text>
+<rect x="492.0" y="238.0" width="10.0" height="48.0" rx="1" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.0"/>
+<text class="t blk2" x="512.0" y="222.0" text-anchor="start">sensor</text>
+<text class="t pn" x="512.0" y="238.0" text-anchor="start">6.79 mm diagonal</text>
+<text class="t pn" x="512.0" y="252.0" text-anchor="start">image circle ≥ 6.8 mm</text>
+<text class="t blk2" x="512.0" y="268.0" text-anchor="start">Nyquist 167 lp/mm</text>
+<line x1="96.0" y1="224.0" x2="300.0" y2="262.0" stroke="#2A6C93" stroke-width="1.4"/>
+<line x1="300.0" y1="262.0" x2="492.0" y2="273.4" stroke="#2A6C93" stroke-width="1.4"/>
+<line x1="96.0" y1="262.0" x2="300.0" y2="262.0" stroke="#2A6C93" stroke-width="1.4"/>
+<line x1="300.0" y1="262.0" x2="492.0" y2="262.0" stroke="#2A6C93" stroke-width="1.4"/>
+<line x1="96.0" y1="300.0" x2="300.0" y2="262.0" stroke="#2A6C93" stroke-width="1.4"/>
+<line x1="300.0" y1="262.0" x2="492.0" y2="250.6" stroke="#2A6C93" stroke-width="1.4"/>
+<line x1="96.0" y1="262.0" x2="492.0" y2="262.0" stroke="#7A8892" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="96.0" y1="358.0" x2="288.0" y2="358.0" stroke="#7A8892" stroke-width="1" marker-end="url(#mg)"/>
+<text class="t pn" x="192.0" y="354.0" text-anchor="middle">working distance 150 mm</text>
+<text class="t keyb" x="34.0" y="396.0" text-anchor="start">Field of view fixes the focal length, not the other way round.</text>
+<text class="t key" x="34.0" y="409.0" text-anchor="start">FOV 200 mm at a 150 mm working distance across a 5.76 mm sensor width gives f ≈ 5.76 × 150 /</text>
+<text class="t key" x="34.0" y="421.0" text-anchor="start">200 ≈ 4.3 mm at the thin-lens approximation. Pick the nearest stock focal length, then</text>
+<text class="t key" x="34.0" y="433.0" text-anchor="start">re-derive the actual FOV and tell the application engineer what they are getting.</text>
+<text class="t sec" x="680.0" y="132.0" text-anchor="start">B · DIFFRACTION MTF AT NYQUIST</text>
+<text class="t secsub" x="680.0" y="147.0" text-anchor="start">MTF = (2/π)[arccos s − s√(1−s²)],  s = 167 / (1/λF),  λ = 550 nm</text>
+<rect x="680.0" y="154.0" width="560.0" height="274.0" rx="4" fill="#FFFFFF" stroke="#C3D0D8" stroke-width="1.0"/>
+<rect x="724.0" y="166.0" width="285.7" height="200.0" rx="0" fill="#EFF8F3" stroke="none" stroke-width="1.0" fill-opacity="0.7"/>
+<text class="t blk2" x="866.9" y="180.0" text-anchor="middle" fill="#1E7A5C">usable for a 3.0 µm pixel</text>
+<line x1="724.0" y1="366.0" x2="1224.0" y2="366.0" stroke="#EEF2F5" stroke-width="1.2"/>
+<text class="t ax" x="716.0" y="369.5" text-anchor="end">0 %</text>
+<line x1="724.0" y1="316.0" x2="1224.0" y2="316.0" stroke="#EEF2F5" stroke-width="1.2"/>
+<text class="t ax" x="716.0" y="319.5" text-anchor="end">25 %</text>
+<line x1="724.0" y1="266.0" x2="1224.0" y2="266.0" stroke="#EEF2F5" stroke-width="1.2"/>
+<text class="t ax" x="716.0" y="269.5" text-anchor="end">50 %</text>
+<line x1="724.0" y1="216.0" x2="1224.0" y2="216.0" stroke="#EEF2F5" stroke-width="1.2"/>
+<text class="t ax" x="716.0" y="219.5" text-anchor="end">75 %</text>
+<line x1="724.0" y1="166.0" x2="1224.0" y2="166.0" stroke="#EEF2F5" stroke-width="1.2"/>
+<text class="t ax" x="716.0" y="169.5" text-anchor="end">100 %</text>
+<rect x="739.7" y="208.0" width="40.0" height="158.0" rx="2" fill="#1E7A5C" stroke="none" stroke-width="1.0"/>
+<text class="t ax" x="759.7" y="382.0" text-anchor="middle">F/1.8</text>
+<text class="t blk2" x="759.7" y="202.0" text-anchor="middle">79</text>
+<rect x="811.1" y="212.0" width="40.0" height="154.0" rx="2" fill="#1E7A5C" stroke="none" stroke-width="1.0"/>
+<text class="t ax" x="831.1" y="382.0" text-anchor="middle">F/2.0</text>
+<text class="t blk2" x="831.1" y="206.0" text-anchor="middle">77</text>
+<rect x="882.6" y="230.0" width="40.0" height="136.0" rx="2" fill="#1E7A5C" stroke="none" stroke-width="1.0"/>
+<text class="t ax" x="902.6" y="382.0" text-anchor="middle">F/2.8</text>
+<text class="t blk2" x="902.6" y="224.0" text-anchor="middle">68</text>
+<rect x="954.0" y="258.0" width="40.0" height="108.0" rx="2" fill="#1E7A5C" stroke="none" stroke-width="1.0"/>
+<text class="t ax" x="974.0" y="382.0" text-anchor="middle">F/4</text>
+<text class="t blk2" x="974.0" y="252.0" text-anchor="middle">54</text>
+<rect x="1025.4" y="290.0" width="40.0" height="76.0" rx="2" fill="#B5742A" stroke="none" stroke-width="1.0"/>
+<text class="t ax" x="1045.4" y="382.0" text-anchor="middle">F/5.6</text>
+<text class="t blk2" x="1045.4" y="284.0" text-anchor="middle">38</text>
+<rect x="1096.9" y="334.0" width="40.0" height="32.0" rx="2" fill="#B5742A" stroke="none" stroke-width="1.0"/>
+<text class="t ax" x="1116.9" y="382.0" text-anchor="middle">F/8</text>
+<text class="t blk2" x="1116.9" y="328.0" text-anchor="middle">16</text>
+<rect x="1168.3" y="366.0" width="40.0" height="2.0" rx="2" fill="#A6402F" stroke="none" stroke-width="1.0"/>
+<text class="t ax" x="1188.3" y="382.0" text-anchor="middle">F/11</text>
+<text class="t blk2" x="1188.3" y="360.0" text-anchor="middle">0</text>
+<text class="t pn" x="724.0" y="404.0" text-anchor="start">F/11 is the diffraction cutoff for a 3.0 µm pixel — the lens delivers</text>
+<text class="t pn" x="724.0" y="418.0" text-anchor="start">zero contrast at Nyquist. Stopping down to 'get depth of field' destroys</text>
+<text class="t pn" x="724.0" y="432.0" text-anchor="start">the resolution the sensor was bought for.</text>
+<text class="t keyb" x="680.0" y="462.0" text-anchor="start">This is the diffraction ceiling, not a lens specification.</text>
+<text class="t key" x="680.0" y="475.0" text-anchor="start">Real aberrations subtract from it. Specify the lens as MTF ≥ 30 %</text>
+<text class="t key" x="680.0" y="487.0" text-anchor="start">at 167 lp/mm on axis and ≥ 20 % at 0.8 field, and ask for the</text>
+<text class="t key" x="680.0" y="499.0" text-anchor="start">measured curve rather than a marketing 'megapixel' rating.</text>
+<text class="t keyb" x="680.0" y="521.0" text-anchor="start">Keep the working aperture between F/2 and F/4.</text>
+<text class="t key" x="680.0" y="534.0" text-anchor="start">Wider and the aberrations dominate; narrower and diffraction does.</text>
+<text class="t key" x="680.0" y="546.0" text-anchor="start">The window is narrow because the pixel is small, which is the</text>
+<text class="t key" x="680.0" y="558.0" text-anchor="start">price of 2.3 MP in a 1/2.6 inch format.</text>
+<text class="t sec" x="34.0" y="500.0" text-anchor="start">C · CHIEF-RAY-ANGLE MATCHING</text>
+<text class="t secsub" x="34.0" y="515.0" text-anchor="start">the AR0234CS ships in 0° and 28° CRA variants — they are not interchangeable</text>
+<rect x="34.0" y="530.0" width="600.0" height="208.0" rx="4" fill="#FFFFFF" stroke="#C3D0D8" stroke-width="1.0"/>
+<text class="t blk2" x="184.0" y="550.0" text-anchor="middle">0° CRA sensor</text>
+<rect x="84.0" y="656.0" width="200.0" height="10.0" rx="1" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.0"/>
+<text class="t pn" x="184.0" y="684.0" text-anchor="middle">pixel array</text>
+<ellipse cx="184" cy="586" rx="9" ry="26" fill="#EFF4F8" stroke="#6E9CB8"/>
+<text class="t pn" x="200.0" y="584.0" text-anchor="start">exit pupil</text>
+<line x1="184.0" y1="586.0" x2="96.0" y2="656.0" stroke="#B5742A" stroke-width="1.5"/>
+<line x1="184.0" y1="586.0" x2="140.0" y2="656.0" stroke="#2A6C93" stroke-width="1.5"/>
+<line x1="184.0" y1="586.0" x2="184.0" y2="656.0" stroke="#2A6C93" stroke-width="1.5"/>
+<line x1="184.0" y1="586.0" x2="228.0" y2="656.0" stroke="#2A6C93" stroke-width="1.5"/>
+<line x1="184.0" y1="586.0" x2="272.0" y2="656.0" stroke="#B5742A" stroke-width="1.5"/>
+<text class="t pn" x="184.0" y="704.0" text-anchor="middle">microlenses centred · needs a distant exit pupil</text>
+<text class="t pn" x="184.0" y="720.0" text-anchor="middle">CRA at max field ≈ 4°</text>
+<text class="t blk2" x="474.0" y="550.0" text-anchor="middle">28° CRA sensor</text>
+<rect x="374.0" y="656.0" width="200.0" height="10.0" rx="1" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.0"/>
+<text class="t pn" x="474.0" y="684.0" text-anchor="middle">pixel array</text>
+<ellipse cx="474" cy="586" rx="9" ry="26" fill="#EFF4F8" stroke="#6E9CB8"/>
+<text class="t pn" x="490.0" y="584.0" text-anchor="start">exit pupil</text>
+<line x1="474.0" y1="586.0" x2="386.0" y2="656.0" stroke="#B5742A" stroke-width="1.5"/>
+<line x1="474.0" y1="586.0" x2="430.0" y2="656.0" stroke="#2A6C93" stroke-width="1.5"/>
+<line x1="474.0" y1="586.0" x2="474.0" y2="656.0" stroke="#2A6C93" stroke-width="1.5"/>
+<line x1="474.0" y1="586.0" x2="518.0" y2="656.0" stroke="#2A6C93" stroke-width="1.5"/>
+<line x1="474.0" y1="586.0" x2="562.0" y2="656.0" stroke="#B5742A" stroke-width="1.5"/>
+<text class="t pn" x="474.0" y="704.0" text-anchor="middle">microlenses shifted outward · typical compact M12</text>
+<text class="t pn" x="474.0" y="720.0" text-anchor="middle">CRA at max field ≈ 24°</text>
+<text class="t keyb" x="34.0" y="760.0" text-anchor="start">The rule: |CRA_lens − CRA_sensor| ≤ 5° at maximum field.</text>
+<text class="t key" x="34.0" y="773.0" text-anchor="start">Beyond that the chief ray misses the shifted microlens and the corner loses</text>
+<text class="t key" x="34.0" y="785.0" text-anchor="start">illumination. A 10–15° mismatch typically costs 20–40 % corner signal, and on the colour</text>
+<text class="t key" x="34.0" y="797.0" text-anchor="start">variant it shifts hue as well because the three colour planes lose different amounts.</text>
+<text class="t keyb" x="34.0" y="819.0" text-anchor="start">Flat-field correction does not rescue this.</text>
+<text class="t key" x="34.0" y="832.0" text-anchor="start">Dividing a dark corner back up to nominal multiplies its shot noise by the same factor.</text>
+<text class="t key" x="34.0" y="844.0" text-anchor="start">You recover the brightness and lose the SNR — which for an inspection camera is the</text>
+<text class="t key" x="34.0" y="856.0" text-anchor="start">thing you were paying for.</text>
+<text class="t keyb" x="34.0" y="878.0" text-anchor="start">Ask the lens vendor for the CRA curve, not the number.</text>
+<text class="t key" x="34.0" y="891.0" text-anchor="start">CRA varies with field height and is what you actually have to match. A single headline</text>
+<text class="t key" x="34.0" y="903.0" text-anchor="start">figure at maximum field hides a mismatch at 0.6 field where most of the image is.</text>
+<defs><marker id="mg" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#7A8892"/></marker><marker id="mr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#A6402F"/></marker><marker id="mb" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#2A6C93"/></marker><marker id="mgr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#1E7A5C"/></marker><marker id="ma" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#B5742A"/></marker></defs>
+</svg>

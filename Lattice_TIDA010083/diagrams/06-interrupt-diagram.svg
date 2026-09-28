@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 820" width="1300" height="820" role="img" aria-label="TIDA-010083 interrupt architecture" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1YjkwY2NiMC00NTA1LTRkZjItOTJmNy1mZjlkNzIwZTA5MWMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLLStJwTGoQtpwlwW5T8+D8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxZWUxZmUxMi1mNzIwLTQ0ZTEtYjkyZS0yMzc0NDIxN2QwYTVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoPmYbEUbMg1/IogYI0pUNFQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggsQigGBJZidqZaoxTLaKE65iCXoxK9E7dzDWo8tar4ZCkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAo/9QRQRKLPBbef44En5pgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAog1hE57CFudYcgjw7XX0y/7DXGZHSwULHe9r8i6OhfmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjTZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjViOTBjY2IwLTQ1MDUtNGRmMi05MmY3LWZmOWQ3MjBlMDkxYy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjI5OTU2NTZiLTNjNTktNDQ5Zi1iMmVmLWRmOGU5YzU5ZmY0ZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCxCKAYElmJ2plqjFMtooTrmIJejEr0Tt3MNajy1qvhkKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggjYhtnmQn15FTlgHKveLJwvUOTmzx2xld6PdvvlXJuX+iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggN3BAObNqHA8ofM63u3a55gS/pPrPT7LDSUVhlo/chdJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQMZ6Oqq1C92K6RT/ztYhj/pp12laXeLFXHIPdGbQ4WZnqg/CXUOA44Awit1prdxKJ0m4NYmRY67clU9oAzlfNck=</c2pa:manifest></metadata>
+<style>
+  .bg{fill:#F6F8FA}
+  .t{font-family:'IBM Plex Sans','Inter','Helvetica Neue',Arial,sans-serif;fill:#16202A}
+  .m{font-family:'IBM Plex Mono','Roboto Mono',Menlo,Consolas,monospace;fill:#16202A}
+  .title{font-size:22px;font-weight:600}
+  .sub{font-size:12.5px;fill:#5A6B78}
+  .blk{font-size:13px;font-weight:600}
+  .blk2{font-size:11.5px;font-weight:600}
+  .pn{font-size:10.5px;fill:#61727E}
+  .lbl{font-size:10.5px;fill:#41525E}
+  .ev{font-size:10.5px;fill:#2D3C47}
+  .w{fill:none;stroke-width:1.8}
+  .grp{font-size:11.5px;font-weight:600;fill:#3A4A55}
+</style>
+<defs>
+  <marker id="iA" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#8C3A6B"/></marker>
+  <marker id="iB" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#384C99"/></marker>
+  <marker id="iC" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#B5742A"/></marker>
+</defs>
+<rect class="bg" x="0" y="0" width="1300" height="820"/>
+<text class="t title" x="34" y="44">Interrupt architecture</text>
+<text class="t sub" x="34" y="66">One shared open-drain line carries every PHY event. The pin does not do this out of the box — it has to be switched over from its default power-down function first.</text>
+
+<text class="t grp" x="34" y="104">Event sources inside the PHY</text>
+<text class="t grp" x="440" y="104">Mask, latch, pin driver</text>
+<text class="t grp" x="880" y="104">Host FPGA</text>
+
+<!-- sources -->
+<rect x="34" y="118" width="326" height="278" fill="#FFFFFF" stroke="#C3D0D8" rx="5"/>
+<g>
+  <rect x="50" y="134" width="294" height="24" fill="#F4F6FC" stroke="#C4CCE4"/><text class="t ev" x="60" y="151">Link status change — link up or link down</text>
+  <rect x="50" y="162" width="294" height="24" fill="#FFFFFF" stroke="#E2E8EC"/><text class="t ev" x="60" y="179">Auto-negotiation complete</text>
+  <rect x="50" y="190" width="294" height="24" fill="#F4F6FC" stroke="#C4CCE4"/><text class="t ev" x="60" y="207">Auto-negotiation error</text>
+  <rect x="50" y="218" width="294" height="24" fill="#FFFFFF" stroke="#E2E8EC"/><text class="t ev" x="60" y="235">Speed change — 1000 / 100 / 10</text>
+  <rect x="50" y="246" width="294" height="24" fill="#F4F6FC" stroke="#C4CCE4"/><text class="t ev" x="60" y="263">Duplex mode change</text>
+  <rect x="50" y="274" width="294" height="24" fill="#FFFFFF" stroke="#E2E8EC"/><text class="t ev" x="60" y="291">False carrier, jabber, page received</text>
+  <rect x="50" y="302" width="294" height="24" fill="#F4F6FC" stroke="#C4CCE4"/><text class="t ev" x="60" y="319">MDI crossover change (auto-MDIX)</text>
+  <rect x="50" y="330" width="294" height="24" fill="#FFFFFF" stroke="#E2E8EC"/><text class="t ev" x="60" y="347">Energy detect, fast link drop</text>
+  <rect x="50" y="358" width="294" height="24" fill="#FFF7FB" stroke="#D5AFC6"/><text class="t ev" x="60" y="375">Wake-on-LAN magic packet or pattern match</text>
+</g>
+
+<!-- registers -->
+<rect x="416" y="118" width="416" height="278" fill="#FFFFFF" stroke="#8E9BC6" rx="5"/>
+<text class="t blk" x="624" y="142" text-anchor="middle">DP83867IR interrupt block</text>
+
+<rect x="436" y="158" width="180" height="72" fill="#F4F6FC" stroke="#8E9BC6" rx="4"/>
+<text class="m blk2" x="526" y="180" text-anchor="middle">MICR — 0x0012</text>
+<text class="t pn" x="526" y="198" text-anchor="middle">per-source enable mask</text>
+<text class="t pn" x="526" y="214" text-anchor="middle">written once at init</text>
+
+<rect x="636" y="158" width="180" height="72" fill="#F4F6FC" stroke="#8E9BC6" rx="4"/>
+<text class="m blk2" x="726" y="180" text-anchor="middle">ISR — 0x0013</text>
+<text class="t pn" x="726" y="198" text-anchor="middle">latched status bits</text>
+<text class="t pn" x="726" y="214" text-anchor="middle" fill="#A6402F">clear-on-read</text>
+
+<rect x="436" y="248" width="380" height="60" fill="#FFF7FB" stroke="#D5AFC6" rx="4"/>
+<text class="t blk2" x="626" y="270" text-anchor="middle">INT / PWDN — pin 44 (VQFN-48)</text>
+<text class="t pn" x="626" y="288" text-anchor="middle">open-drain once configured · active low · internal pull-up</text>
+
+<rect x="436" y="322" width="380" height="58" fill="#FBEDE9" stroke="#D2A398" rx="4"/>
+<text class="t blk2" x="626" y="342" text-anchor="middle" fill="#A6402F">Default function is POWER DOWN, not interrupt</text>
+<text class="t pn" x="626" y="359" text-anchor="middle">An input, pulled up internally. Register access is required to turn it into an output.</text>
+<text class="t pn" x="626" y="373" text-anchor="middle">If the FPGA drives it low during configuration, the PHY quietly enters power-down.</text>
+
+<!-- host -->
+<rect x="888" y="118" width="378" height="278" fill="#FFFFFF" stroke="#C3D0D8" rx="5"/>
+<text class="t blk" x="1077" y="142" text-anchor="middle">FPGA</text>
+
+<rect x="906" y="158" width="342" height="52" fill="#EFF4F8" stroke="#6E9CB8" rx="4"/>
+<text class="t blk2" x="1077" y="178" text-anchor="middle">2.2 kΩ pull-up to VDDIO (+VIO = 2.5 V here)</text>
+<text class="t pn" x="1077" y="196" text-anchor="middle">the internal pull-up alone will not meet edge rates</text>
+
+<rect x="906" y="226" width="342" height="62" fill="#FFFFFF" stroke="#C3D0D8" rx="4"/>
+<text class="t blk2" x="1077" y="246" text-anchor="middle">Edge-sensitive GPIO, falling edge</text>
+<text class="t pn" x="1077" y="264" text-anchor="middle">Configure as input only. Never drive it.</text>
+<text class="t pn" x="1077" y="279" text-anchor="middle">Shareable with other open-drain sources on the same net.</text>
+
+<rect x="906" y="304" width="342" height="76" fill="#FFFFFF" stroke="#C3D0D8" rx="4"/>
+<text class="t blk2" x="1077" y="324" text-anchor="middle">Service routine over MDIO</text>
+<text class="m pn" x="1077" y="342" text-anchor="middle">read ISR 0x0013 → decode → act</text>
+<text class="t pn" x="1077" y="359" text-anchor="middle">The read clears the latch and releases the pin.</text>
+<text class="t pn" x="1077" y="373" text-anchor="middle">Re-read until the line goes high, or a coincident event is lost.</text>
+
+<path class="w" d="M360,257 H416" stroke="#8C3A6B" marker-end="url(#iA)"/>
+<path class="w" d="M616,194 H636" stroke="#8C3A6B" marker-end="url(#iA)"/>
+<path class="w" d="M726,230 V248" stroke="#8C3A6B" marker-end="url(#iA)"/>
+<path class="w" d="M816,278 H888 V184" stroke="#8C3A6B" fill="none" marker-end="url(#iA)"/>
+<path class="w" d="M1077,210 V226" stroke="#8C3A6B" marker-end="url(#iA)"/>
+<path class="w" d="M1077,288 V304" stroke="#8C3A6B" marker-end="url(#iA)"/>
+<path class="w" d="M906,340 H860 V200 H816" stroke="#384C99" fill="none" marker-end="url(#iB)"/>
+<text class="m lbl" x="838" y="192" text-anchor="middle" fill="#384C99">MDC</text>
+<text class="m lbl" x="838" y="206" text-anchor="middle" fill="#384C99">MDIO</text>
+
+<!-- second source: isolated DI -->
+<rect x="34" y="420" width="798" height="126" fill="#FFFFFF" stroke="#DCE4E9" rx="5"/>
+<text class="t blk" x="52" y="446">The other asynchronous path — isolated digital inputs</text>
+<text class="t lbl" x="52" y="470">The two ISO1212 channels do not pass through the PHY at all. Their outputs go straight to FPGA pins and are the natural trigger source.</text>
+<text class="t lbl" x="52" y="490">Timing budget: the ISO1212 passes a 150 ns minimum pulse and runs to 4 Mb/s, so trigger jitter comes from FPGA sampling, not the isolator.</text>
+<text class="t lbl" x="52" y="510">The digital <tspan font-style="italic">output</tspan> is a plain optocoupler and orders of magnitude slower. Use it for busy or ready flags, not for anything timed precisely.</text>
+<text class="t lbl" x="52" y="530">Each channel is isolated from the others and from logic ground, and the field side is loop-powered.</text>
+
+<rect x="888" y="420" width="378" height="126" fill="#FFFDF5" stroke="#CBBE8E" rx="5"/>
+<text class="t blk2" x="906" y="444">Two traps worth writing on the schematic</text>
+<text class="t lbl" x="906" y="468">1 · Wake-on-LAN interrupts are suppressed while BMCR 0x0000</text>
+<text class="t lbl" x="918" y="483">bit 10 (ISOLATE) is set, because that disables the MAC interface.</text>
+<text class="t lbl" x="906" y="506">2 · The pull-up must go to the same VDDIO the PHY runs on. Tying</text>
+<text class="t lbl" x="918" y="521">it to 3.3 V while VDDIO is 2.5 V forward-biases the pin protection.</text>
+
+<!-- sequence -->
+<rect x="34" y="570" width="1232" height="230" fill="#FFFFFF" stroke="#DCE4E9" rx="5"/>
+<text class="t blk" x="52" y="596">Bring-up order and the interrupt handshake</text>
+
+<g>
+  <circle cx="90" cy="632" r="13" fill="#8C3A6B"/><text class="t" x="90" y="637" font-size="12" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+  <text class="t lbl" x="116" y="630">Wait out T1 after reset — 200 ms from cold power-up, 195 µs after a hardware reset.</text>
+  <text class="t lbl" x="116" y="646">Until then the PHY will not answer MDIO and the host has no way to configure anything.</text>
+
+  <circle cx="90" cy="684" r="13" fill="#8C3A6B"/><text class="t" x="90" y="689" font-size="12" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+  <text class="t lbl" x="116" y="682">Switch the pin's function from power-down to interrupt, then program MICR 0x0012 with</text>
+  <text class="t lbl" x="116" y="698">the sources you care about. Link status change alone covers most applications.</text>
+
+  <circle cx="90" cy="736" r="13" fill="#8C3A6B"/><text class="t" x="90" y="741" font-size="12" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+  <text class="t lbl" x="116" y="734">Read ISR 0x0013 once to clear anything latched during bring-up, then enable the FPGA's</text>
+  <text class="t lbl" x="116" y="750">edge detector. Skipping this leaves a stale assertion that looks like a dead interrupt line.</text>
+
+  <circle cx="700" cy="632" r="13" fill="#8C3A6B"/><text class="t" x="700" y="637" font-size="12" font-weight="600" fill="#fff" text-anchor="middle">4</text>
+  <text class="t lbl" x="726" y="630">Event occurs → ISR bit latches → the open-drain pin pulls the shared line low.</text>
+  <text class="t lbl" x="726" y="646">It stays low until the host reads ISR, however many events pile up behind it.</text>
+
+  <circle cx="700" cy="684" r="13" fill="#8C3A6B"/><text class="t" x="700" y="689" font-size="12" font-weight="600" fill="#fff" text-anchor="middle">5</text>
+  <text class="t lbl" x="726" y="682">Host reads ISR over MDIO. Clear-on-read means one read consumes every pending bit —</text>
+  <text class="t lbl" x="726" y="698">decode the whole word, do not test one bit and discard the rest.</text>
+
+  <circle cx="700" cy="736" r="13" fill="#8C3A6B"/><text class="t" x="700" y="741" font-size="12" font-weight="600" fill="#fff" text-anchor="middle">6</text>
+  <text class="t lbl" x="726" y="734">Confirm the line has returned high before re-arming. If it has not, a new event arrived</text>
+  <text class="t lbl" x="726" y="750">during the read — loop back to step 5 rather than waiting for another edge.</text>
+</g>
+<text class="t lbl" x="52" y="782">Polling alternative: BMSR 0x0001 bit 2 gives link status directly and is latching-low, so a slow poll is a legitimate fallback if the interrupt pin is not routed. Expect 2–3 s for</text>
+<text class="t lbl" x="52" y="796">auto-negotiation to complete, so anything faster than about a 100 ms poll interval buys nothing on link-state changes.</text>
+</svg>

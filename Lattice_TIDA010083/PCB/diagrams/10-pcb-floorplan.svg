@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1000" width="1280" height="1000" role="img" aria-label="Carrier board PCB floorplan, 27 x 27 mm">
+<style>
+  .bg{fill:#F6F8FA}
+  .t{font-family:'IBM Plex Sans','Inter','Helvetica Neue',Arial,sans-serif;fill:#16202A}
+  .m{font-family:'IBM Plex Mono','Roboto Mono',Menlo,Consolas,monospace;fill:#16202A}
+  .title{font-size:23px;font-weight:600}
+  .sub{font-size:12.5px;fill:#5A6B78}
+  .sec{font-size:12.5px;font-weight:600;fill:#41525E}
+  .secsub{font-size:10px;fill:#7A8892}
+  .blk{font-size:11.5px;font-weight:600}
+  .blk2{font-size:10px;font-weight:600}
+  .pn{font-size:9.5px;fill:#61727E}
+  .lbl{font-size:10px;fill:#41525E}
+  .key{font-size:10.5px;fill:#243441}
+  .keyb{font-size:10.5px;font-weight:600;fill:#16202A}
+  .num{font-size:9px;font-weight:700;fill:#FFFFFF}
+  .dim{font-size:9.5px;fill:#7A8892}
+</style>
+<rect class="bg" x="0" y="0" width="1280" height="1000"/>
+<text class="t title" x="34.0" y="44.0" text-anchor="start">Carrier board floorplan — 27 × 27 mm, 10-layer HDI</text>
+<text class="t sub" x="34.0" y="66.0" text-anchor="start">LIFCL-40 CrossLink-NX + AR0234CS machine-vision camera. The carrier sits behind TIDA-010083 in the same 27 × 27 mm envelope and inside a 29 mm housing.</text>
+<text class="t sub" x="34.0" y="84.0" text-anchor="start">Placement is driven by three things in this order: the FPGA bank voltages, the thermal path out of the FPGA, and the distance from the switching node to the image sensor.</text>
+<text class="t sec" x="64.0" y="98.0" text-anchor="start">TOP SIDE</text>
+<text class="t secsub" x="64.0" y="114.0" text-anchor="start">component side · faces the TIDA board</text>
+<text class="t sec" x="486.0" y="98.0" text-anchor="start">BOTTOM SIDE</text>
+<text class="t secsub" x="486.0" y="114.0" text-anchor="start">X-ray view — same coordinate frame, not mirrored</text>
+<rect x="64.0" y="128.0" width="380.0" height="380.0" rx="6" fill="#FAFCFD" stroke="#8C9AA4" stroke-width="1.8"/>
+<rect x="78.1" y="142.1" width="351.9" height="351.9" rx="4" fill="none" stroke="#C3D0D8" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="92.1" cy="479.9" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="92.1" cy="479.9" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<circle cx="415.9" cy="479.9" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="415.9" cy="479.9" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<circle cx="92.1" cy="156.1" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="92.1" cy="156.1" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<circle cx="415.9" cy="156.1" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="415.9" cy="156.1" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<rect x="486.0" y="128.0" width="380.0" height="380.0" rx="6" fill="#FAFCFD" stroke="#8C9AA4" stroke-width="1.8"/>
+<rect x="500.1" y="142.1" width="351.9" height="351.9" rx="4" fill="none" stroke="#C3D0D8" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="514.1" cy="479.9" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="514.1" cy="479.9" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<circle cx="837.9" cy="479.9" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="837.9" cy="479.9" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<circle cx="514.1" cy="156.1" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="514.1" cy="156.1" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<circle cx="837.9" cy="156.1" r="23.9" fill="#FFFFFF" stroke="#B8C4CC" stroke-width="0.9" stroke-dasharray="2.5 2.5"/>
+<circle cx="837.9" cy="156.1" r="12.0" fill="#E8EDF1" stroke="#8C9AA4" stroke-width="1.0"/>
+<rect x="162.5" y="247.6" width="133.7" height="133.7" rx="1.5" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.3"/>
+<text class="t blk2" x="229.4" y="306.0" text-anchor="middle">LIFCL-40</text>
+<text class="t pn" x="229.4" y="318.5" text-anchor="middle">289-csBGA 9.5²</text>
+<text class="t pn" x="229.4" y="331.0" text-anchor="middle">0.5 mm pitch</text>
+<circle cx="171.2" cy="256.4" r="7.5" fill="#2A6C93"/><text class="t num" x="171.2" y="259.6" text-anchor="middle">1</text>
+<rect x="311.7" y="219.5" width="112.6" height="197.0" rx="1.5" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.3"/>
+<text class="t blk2" x="368.0" y="309.5" text-anchor="middle">DDR3L</text>
+<text class="t pn" x="368.0" y="322.0" text-anchor="middle">1 Gb ×16</text>
+<text class="t pn" x="368.0" y="334.5" text-anchor="middle">96-FBGA</text>
+<circle cx="320.4" cy="228.2" r="7.5" fill="#2A6C93"/><text class="t num" x="320.4" y="231.4" text-anchor="middle">2</text>
+<rect x="125.9" y="454.5" width="174.5" height="40.8" rx="1.5" fill="#F7F1FA" stroke="#B896CC" stroke-width="1.3"/>
+<text class="t blk2" x="147.0" y="478.9" text-anchor="start">DF40 50-way → TIDA</text>
+<circle cx="134.7" cy="463.2" r="7.5" fill="#2A6C93"/><text class="t num" x="134.7" y="466.4" text-anchor="middle">3</text>
+<rect x="123.1" y="139.3" width="261.8" height="74.6" rx="1.5" fill="#F7F1FA" stroke="#B896CC" stroke-width="1.3"/>
+<text class="t blk2" x="254.0" y="180.6" text-anchor="middle">30-way 0.5 mm FPC → sensor board</text>
+<circle cx="131.8" cy="148.0" r="7.5" fill="#2A6C93"/><text class="t num" x="131.8" y="151.2" text-anchor="middle">4</text>
+<rect x="89.3" y="288.4" width="35.2" height="28.1" rx="1.5" fill="#EFF8F3" stroke="#84B9A2" stroke-width="1.3"/>
+<text class="t blk2" x="110.4" y="306.5" text-anchor="start">25 MHz</text>
+<circle cx="98.1" cy="297.2" r="7.5" fill="#2A6C93"/><text class="t num" x="98.1" y="300.4" text-anchor="middle">5</text>
+<rect x="125.9" y="220.9" width="35.2" height="19.7" rx="1.5" fill="#F7FAF0" stroke="#A9BC72" stroke-width="1.3"/>
+<circle cx="134.7" cy="229.6" r="7.5" fill="#2A6C93"/><text class="t num" x="134.7" y="232.8" text-anchor="middle">6</text>
+<rect x="86.5" y="409.5" width="23.9" height="29.6" rx="1.5" fill="#FFFFFF" stroke="#C3D0D8" stroke-width="1.3"/>
+<circle cx="95.2" cy="418.2" r="7.5" fill="#2A6C93"/><text class="t num" x="95.2" y="421.4" text-anchor="middle">7</text>
+<rect x="86.5" y="333.5" width="25.3" height="56.3" rx="1.5" fill="#FFFFFF" stroke="#C3D0D8" stroke-width="1.3"/>
+<circle cx="95.2" cy="342.2" r="7.5" fill="#2A6C93"/><text class="t num" x="95.2" y="345.4" text-anchor="middle">8</text>
+<rect x="162.5" y="363.0" width="133.7" height="18.3" rx="0.8" fill="#FFFFFF" stroke="#9FB6C6" stroke-width="0.8" fill-opacity="0.55"/>
+<text class="t pn" x="192.1" y="375.2" text-anchor="start">bank 1 · 2.5 V · RGMII</text>
+<rect x="162.5" y="247.6" width="133.7" height="18.3" rx="0.8" fill="#FFFFFF" stroke="#9FB6C6" stroke-width="0.8" fill-opacity="0.55"/>
+<text class="t pn" x="182.2" y="259.8" text-anchor="start">D-PHY quad + bank 5 · 1.8 V</text>
+<g transform="translate(287.1,314.5) rotate(-90)"><text class="t pn" x="0.0" y="0.0" text-anchor="middle">bank 4 · 1.35 V · DDR3L</text></g>
+<g transform="translate(171.7,314.5) rotate(-90)"><text class="t pn" x="0.0" y="0.0" text-anchor="middle">bank 2 · 3.3 V · misc</text></g>
+<path d="M 223.0 245.5 L 223.0 216.0" stroke="#A6402F" stroke-width="2.4" fill="none" marker-end="url(#ar)"/>
+<text class="t pn" x="231.5" y="225.8" text-anchor="start">MIPI ×5</text>
+<text class="t pn" x="231.5" y="237.1" text-anchor="start">≤ 6 mm</text>
+<path d="M 207.6 382.7 L 207.6 453.1" stroke="#2A6C93" stroke-width="2.4" fill="none" marker-end="url(#ab)"/>
+<text class="t pn" x="214.6" y="420.7" text-anchor="start">RGMII ×12</text>
+<path d="M 297.6 315.2 L 310.3 315.2" stroke="#1E7A5C" stroke-width="2.4" fill="none" marker-end="url(#ag)"/>
+<text class="t pn" x="313.1" y="432.0" text-anchor="start">DDR3L</text>
+<text class="t pn" x="313.1" y="443.3" text-anchor="start">≤ 25 mm</text>
+<rect x="595.1" y="258.2" width="112.6" height="112.6" rx="1.5" fill="#FCF1EF" stroke="#C0806F" stroke-width="1.3"/>
+<rect x="600.0" y="292.7" width="102.7" height="45.0" rx="0.8" fill="#FFFFFF" stroke="none" stroke-width="0" fill-opacity="0.86"/>
+<text class="t blk2" x="651.4" y="303.9" text-anchor="middle">thermal land</text>
+<text class="t pn" x="651.4" y="318.0" text-anchor="middle">8 × 8 mm, mask-free</text>
+<text class="t pn" x="651.4" y="330.7" text-anchor="middle">64 × Ø0.30 filled via</text>
+<circle cx="603.8" cy="266.9" r="7.5" fill="#A6402F"/><text class="t num" x="603.8" y="270.1" text-anchor="middle">9</text>
+<circle cx="602.1" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="602.1" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="602.1" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="602.1" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="602.1" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="602.1" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="602.1" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="602.1" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="616.2" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="630.3" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="644.3" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="658.4" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="672.5" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="686.6" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="363.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="349.7" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="335.6" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="321.5" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="307.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="293.4" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="279.3" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<circle cx="700.6" cy="265.2" r="2.3" fill="#C0806F" stroke="none" stroke-width="0"/>
+<rect x="571.9" y="235.0" width="159.0" height="159.0" rx="1.5" fill="none" stroke="#8C9AA4" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="580.3" cy="243.4" r="7.5" fill="#41525E"/><text class="t num" x="580.3" y="246.6" text-anchor="middle">10</text>
+<rect x="546.5" y="396.8" width="122.4" height="56.3" rx="1.5" fill="#FDF6EC" stroke="#C9A570" stroke-width="1.3"/>
+<text class="t blk2" x="607.7" y="416.5" text-anchor="middle">point-of-load zone</text>
+<text class="t pn" x="607.7" y="429.0" text-anchor="middle">4 × TPS6280x @ 4 MHz</text>
+<text class="t pn" x="607.7" y="441.5" text-anchor="middle">local GND island</text>
+<circle cx="555.2" cy="405.5" r="7.5" fill="#41525E"/><text class="t num" x="555.2" y="408.7" text-anchor="middle">11</text>
+<rect x="745.0" y="433.4" width="59.1" height="33.8" rx="1.5" fill="#FFFFFF" stroke="#C3D0D8" stroke-width="1.3"/>
+<text class="t blk2" x="766.1" y="454.3" text-anchor="start">SPI NOR</text>
+<circle cx="753.7" cy="442.1" r="7.5" fill="#41525E"/><text class="t num" x="753.7" y="445.3" text-anchor="middle">12</text>
+<rect x="733.7" y="223.7" width="109.8" height="188.6" rx="1.5" fill="none" stroke="#8C9AA4" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text class="t blk2" x="788.6" y="314.0" text-anchor="middle">DDR3L decoupling</text>
+<text class="t pn" x="788.6" y="327.0" text-anchor="middle">directly under the ball field</text>
+<circle cx="742.4" cy="232.4" r="7.5" fill="#41525E"/><text class="t num" x="742.4" y="235.6" text-anchor="middle">13</text>
+<rect x="733.7" y="167.4" width="76.0" height="45.0" rx="1.5" fill="#FFFFFF" stroke="#C3D0D8" stroke-width="1.3"/>
+<text class="t blk2" x="771.7" y="193.9" text-anchor="middle">JTAG pads</text>
+<circle cx="742.4" cy="176.1" r="7.5" fill="#41525E"/><text class="t num" x="742.4" y="179.3" text-anchor="middle">14</text>
+<rect x="550.7" y="206.8" width="104.1" height="22.5" rx="1.5" fill="#FDF6EC" stroke="#C9A570" stroke-width="1.3"/>
+<text class="t blk2" x="571.9" y="222.1" text-anchor="start">sensor-rail π filters</text>
+<circle cx="559.5" cy="215.5" r="7.5" fill="#41525E"/><text class="t num" x="559.5" y="218.7" text-anchor="middle">15</text>
+<circle cx="514.1" cy="479.9" r="17.6" fill="none" stroke="#1E7A5C" stroke-width="2.0"/>
+<text class="t pn" x="545.1" y="485.5" text-anchor="start">single DC chassis bond</text>
+<circle cx="837.9" cy="479.9" r="17.6" fill="none" stroke="#B5742A" stroke-width="2.0" stroke-dasharray="3 2"/>
+<circle cx="514.1" cy="156.1" r="17.6" fill="none" stroke="#B5742A" stroke-width="2.0" stroke-dasharray="3 2"/>
+<circle cx="837.9" cy="156.1" r="17.6" fill="none" stroke="#B5742A" stroke-width="2.0" stroke-dasharray="3 2"/>
+<text class="t pn" x="676.0" y="150.5" text-anchor="middle">1 nF HF bond ×3</text>
+<text class="t sec" x="920.0" y="98.0" text-anchor="start">BOARD STACK</text>
+<text class="t secsub" x="920.0" y="114.0" text-anchor="start">side elevation, not to scale</text>
+<rect x="920" y="128" width="326" height="380" rx="6" fill="#FFFFFF" stroke="#DCE4E9"/>
+<rect x="940" y="150" width="166" height="346" rx="4" fill="none" stroke="#8C9AA4" stroke-width="2.4"/>
+<rect x="995" y="134" width="56" height="30" rx="3" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.3"/>
+<rect x="956" y="172" width="134" height="30" rx="3" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.3"/>
+<line x1="1094" y1="187" x2="1106" y2="187" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="184.0" text-anchor="start">sensor board</text>
+<text class="t pn" x="1110.0" y="196.0" text-anchor="start">AR0234CS + 2.8 V LDO</text>
+<rect x="956" y="260" width="134" height="30" rx="3" fill="#EFF4F8" stroke="#6E9CB8" stroke-width="1.3"/>
+<line x1="1094" y1="275" x2="1106" y2="275" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="272.0" text-anchor="start">carrier board</text>
+<text class="t pn" x="1110.0" y="284.0" text-anchor="start">this floorplan · 10L HDI</text>
+<rect x="956" y="348" width="134" height="30" rx="3" fill="#FDF6EC" stroke="#C9A570" stroke-width="1.3"/>
+<line x1="1094" y1="363" x2="1106" y2="363" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="360.0" text-anchor="start">TIDA-010083</text>
+<text class="t pn" x="1110.0" y="372.0" text-anchor="start">PoE PD + DP83867 PHY</text>
+<rect x="956" y="434" width="134" height="30" rx="3" fill="#FDF6EC" stroke="#C9A570" stroke-width="1.3"/>
+<line x1="1094" y1="449" x2="1106" y2="449" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="446.0" text-anchor="start">RJ45 + magnetics</text>
+<text class="t pn" x="1110.0" y="458.0" text-anchor="start">TIDA flex section</text>
+<line x1="1053" y1="149" x2="1106" y2="149" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="146.0" text-anchor="start">M12 lens, metal barrel</text>
+<text class="t pn" x="1110.0" y="158.0" text-anchor="start">aperture below cutoff</text>
+<path d="M 1068 202 C 1104 220, 1104 242, 1068 260" fill="none" stroke="#B896CC" stroke-width="2.6"/>
+<line x1="1104" y1="231" x2="1106" y2="231" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="228.0" text-anchor="start">30-way FPC, ≤ 60 mm</text>
+<text class="t pn" x="1110.0" y="240.0" text-anchor="start">100 Ω ±15 % diff</text>
+<rect x="1046" y="290" width="24" height="58" rx="2" fill="#F7F1FA" stroke="#B896CC" stroke-width="1.2"/>
+<line x1="1072" y1="319" x2="1106" y2="319" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="316.0" text-anchor="start">DF40, 4 mm stack</text>
+<text class="t pn" x="1110.0" y="328.0" text-anchor="start">5 V · RGMII · iso I/O</text>
+<rect x="1046" y="378" width="24" height="56" rx="2" fill="#F7F1FA" stroke="#B896CC" stroke-width="1.2"/>
+<line x1="1072" y1="406" x2="1106" y2="406" stroke="#DCE4E9" stroke-width="1" stroke-dasharray="2 3"/>
+<text class="t blk2" x="1110.0" y="403.0" text-anchor="start">TIDA flex fold</text>
+<text class="t pn" x="1110.0" y="415.0" text-anchor="start">27 × 27 mm, folded</text>
+<rect x="940" y="264" width="16" height="22" fill="#FCF1EF" stroke="#C0806F" stroke-width="1.2"/>
+<path d="M 982 275 L 944 275" stroke="#A6402F" stroke-width="2.6" fill="none" marker-end="url(#ar)"/>
+<text class="t pn" x="962.0" y="300.0" text-anchor="start">gap pad → housing boss</text>
+<circle cx="940" cy="363" r="5" fill="#1E7A5C"/>
+<text class="t pn" x="950.0" y="386.0" text-anchor="start">single DC chassis bond</text>
+<text class="t pn" x="940.0" y="516.0" text-anchor="start">One cable in. Everything inside is a shielded volume</text>
+<text class="t pn" x="940.0" y="530.0" text-anchor="start">with exactly one DC ground bond.</text>
+<line x1="34" y1="534" x2="1246" y2="534" stroke="#DCE4E9" stroke-width="1.2"/>
+<text class="t sec" x="40.0" y="556.0" text-anchor="start">TOP SIDE</text>
+<text class="t sec" x="452.0" y="556.0" text-anchor="start">BOTTOM SIDE</text>
+<text class="t sec" x="864.0" y="556.0" text-anchor="start">WHY THE PARTS SIT WHERE THEY DO</text>
+<circle cx="47.0" cy="576.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="579.2" text-anchor="middle">1</text>
+<text class="t keyb" x="62.0" y="580.0" text-anchor="start">LIFCL-40-9MG289I</text>
+<text class="t key" x="62.0" y="593.0" text-anchor="start">289-csBGA, 9.5 × 9.5 mm, 0.5 mm pitch. Rotated so bank 1 faces</text>
+<text class="t key" x="62.0" y="605.0" text-anchor="start">the TIDA connector and the D-PHY quad faces the sensor FPC.</text>
+<circle cx="47.0" cy="622.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="625.2" text-anchor="middle">2</text>
+<text class="t keyb" x="62.0" y="626.0" text-anchor="start">DDR3L 1 Gb ×16</text>
+<text class="t key" x="62.0" y="639.0" text-anchor="start">96-ball FBGA on the east flank. Single rank, point-to-point,</text>
+<text class="t key" x="62.0" y="651.0" text-anchor="start">every net under 25 mm — no fly-by, no VTT island.</text>
+<circle cx="47.0" cy="668.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="671.2" text-anchor="middle">3</text>
+<text class="t keyb" x="62.0" y="672.0" text-anchor="start">DF40C-50DS-0.4V</text>
+<text class="t key" x="62.0" y="685.0" text-anchor="start">22 signals, 6 × 5 V contacts for 2.3 A, 20 grounds. Pinout in</text>
+<text class="t key" x="62.0" y="697.0" text-anchor="start">Hardware/pinout-J1-tida-df40.csv.</text>
+<circle cx="47.0" cy="714.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="717.2" text-anchor="middle">4</text>
+<text class="t keyb" x="62.0" y="718.0" text-anchor="start">30-way 0.5 mm FPC</text>
+<text class="t key" x="62.0" y="731.0" text-anchor="start">5 MIPI pairs with a ground between each, I²C, RESET, EXTCLK,</text>
+<text class="t key" x="62.0" y="743.0" text-anchor="start">TRIGGER, FLASH, and two power feeds.</text>
+<circle cx="47.0" cy="760.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="763.2" text-anchor="middle">5</text>
+<text class="t keyb" x="62.0" y="764.0" text-anchor="start">25 MHz XO ±25 ppm</text>
+<text class="t key" x="62.0" y="777.0" text-anchor="start">Local reference for the DDR3L PLL. CLK_OUT from the PHY drives</text>
+<text class="t key" x="62.0" y="789.0" text-anchor="start">the timestamp counter only.</text>
+<circle cx="47.0" cy="806.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="809.2" text-anchor="middle">6</text>
+<text class="t keyb" x="62.0" y="810.0" text-anchor="start">TPD4E05U06</text>
+<text class="t key" x="62.0" y="823.0" text-anchor="start">0.5 pF ESD array on the low-speed flex lines, at the</text>
+<text class="t key" x="62.0" y="835.0" text-anchor="start">connector.</text>
+<circle cx="47.0" cy="852.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="855.2" text-anchor="middle">7</text>
+<text class="t keyb" x="62.0" y="856.0" text-anchor="start">Status LEDs ×2</text>
+<text class="t key" x="62.0" y="869.0" text-anchor="start">Light-piped to the rear face.</text>
+<circle cx="47.0" cy="886.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="47.0" y="889.2" text-anchor="middle">8</text>
+<text class="t keyb" x="62.0" y="890.0" text-anchor="start">Bulk 2 × 22 µF</text>
+<text class="t key" x="62.0" y="903.0" text-anchor="start">5 V input bulk for the point-of-load zone.</text>
+<circle cx="459.0" cy="576.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="459.0" y="579.2" text-anchor="middle">9</text>
+<text class="t keyb" x="474.0" y="580.0" text-anchor="start">Thermal land</text>
+<text class="t key" x="474.0" y="593.0" text-anchor="start">8 × 8 mm mask-free copper, 64 vias of Ø0.30 mm, filled and</text>
+<text class="t key" x="474.0" y="605.0" text-anchor="start">capped. The only conduction path out of a fanless csBGA.</text>
+<circle cx="459.0" cy="622.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="459.0" y="625.2" text-anchor="middle">10</text>
+<text class="t keyb" x="474.0" y="626.0" text-anchor="start">Decoupling ring</text>
+<text class="t key" x="474.0" y="639.0" text-anchor="start">0201s just outside the ball shadow. The BGA shadow is thermal</text>
+<text class="t key" x="474.0" y="651.0" text-anchor="start">land, so the thin L1–L2 dielectric carries the high-frequency</text>
+<text class="t key" x="474.0" y="663.0" text-anchor="start">return.</text>
+<circle cx="459.0" cy="680.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="459.0" y="683.2" text-anchor="middle">11</text>
+<text class="t keyb" x="474.0" y="684.0" text-anchor="start">Point-of-load zone</text>
+<text class="t key" x="474.0" y="697.0" text-anchor="start">1.0 V, 1.8 V, 1.35 V, 1.2 V. Farthest corner from the sensor</text>
+<text class="t key" x="474.0" y="709.0" text-anchor="start">FPC. Local island, stitched on all four sides.</text>
+<circle cx="459.0" cy="726.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="459.0" y="729.2" text-anchor="middle">12</text>
+<text class="t keyb" x="474.0" y="730.0" text-anchor="start">SPI NOR 128 Mb</text>
+<text class="t key" x="474.0" y="743.0" text-anchor="start">FPGA configuration.</text>
+<circle cx="459.0" cy="760.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="459.0" y="763.2" text-anchor="middle">13</text>
+<text class="t keyb" x="474.0" y="764.0" text-anchor="start">DDR3L decoupling</text>
+<text class="t key" x="474.0" y="777.0" text-anchor="start">Mirrored under the ball field.</text>
+<circle cx="459.0" cy="794.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="459.0" y="797.2" text-anchor="middle">14</text>
+<text class="t keyb" x="474.0" y="798.0" text-anchor="start">Tag-Connect TC2050</text>
+<text class="t key" x="474.0" y="811.0" text-anchor="start">Pads only, no connector, no board area spent on a header.</text>
+<circle cx="459.0" cy="828.0" r="7.5" fill="#41525E"/>
+<text class="t num" x="459.0" y="831.2" text-anchor="middle">15</text>
+<text class="t keyb" x="474.0" y="832.0" text-anchor="start">π filters</text>
+<text class="t key" x="474.0" y="845.0" text-anchor="start">Ferrite + cap on every rail entering the sensor flex, at the</text>
+<text class="t key" x="474.0" y="857.0" text-anchor="start">flex end.</text>
+<text class="t keyb" x="864.0" y="580.0" text-anchor="start">Bank voltage sets rotation.</text>
+<text class="t key" x="864.0" y="593.0" text-anchor="start">Bank 1 is 2.5 V for RGMII, bank 4 is 1.35 V for DDR3L, bank 5</text>
+<text class="t key" x="864.0" y="605.0" text-anchor="start">is 1.8 V for the sensor. Those three banks cannot be</text>
+<text class="t key" x="864.0" y="617.0" text-anchor="start">re-ordered, so the package orientation is fixed before a</text>
+<text class="t key" x="864.0" y="629.0" text-anchor="start">single trace is drawn.</text>
+<text class="t keyb" x="864.0" y="650.0" text-anchor="start">The switcher is the loudest thing on the board.</text>
+<text class="t key" x="864.0" y="663.0" text-anchor="start">4 MHz point-of-load converters sit in the corner diagonally</text>
+<text class="t key" x="864.0" y="675.0" text-anchor="start">opposite the sensor flex. Distance costs nothing here and buys</text>
+<text class="t key" x="864.0" y="687.0" text-anchor="start">sensor-row noise margin that no filter recovers later.</text>
+<text class="t keyb" x="864.0" y="708.0" text-anchor="start">Heat leaves through the board, not the air.</text>
+<text class="t key" x="864.0" y="721.0" text-anchor="start">No fan, a sealed housing, and a sensor whose dark current</text>
+<text class="t key" x="864.0" y="733.0" text-anchor="start">roughly doubles every 6–8 °C. The bottom-side land under the</text>
+<text class="t key" x="864.0" y="745.0" text-anchor="start">FPGA is reserved before any passive is placed.</text>
+<text class="t keyb" x="864.0" y="766.0" text-anchor="start">MIPI is short because it is placed short.</text>
+<text class="t key" x="864.0" y="779.0" text-anchor="start">The D-PHY escape faces the FPC and the gap is 2.4 mm. Nothing</text>
+<text class="t key" x="864.0" y="791.0" text-anchor="start">crosses it — no rail, no plane split, no serpentine.</text>
+<text class="t keyb" x="864.0" y="812.0" text-anchor="start">The connector footprints are the immovable objects.</text>
+<text class="t key" x="864.0" y="825.0" text-anchor="start">They are set by the TIDA board above and the lens mount in</text>
+<text class="t key" x="864.0" y="837.0" text-anchor="start">front. Everything else was placed around them.</text>
+<defs><marker id="ar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#A6402F"/></marker><marker id="ab" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#2A6C93"/></marker><marker id="ag" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#1E7A5C"/></marker></defs>
+</svg>

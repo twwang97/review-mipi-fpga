@@ -1,0 +1,96 @@
+#=====================================================================
+# cam_top.fdc - Lattice Radiant timing constraints
+# Device: LIFCL-40-9MG289I
+#=====================================================================
+
+#---------------------------------------------------------------------
+# Primary clocks
+#---------------------------------------------------------------------
+# 25 MHz reference, taken from the DP83867 CLK_OUT pin programmed to
+# the divide-by-five recovered receive clock. This makes the whole
+# board's timebase traceable to the network clock.
+create_clock -name clk_ref -period 40.000 [get_ports clk_ref]
+
+# RGMII receive clock, source-synchronous from the PHY.
+create_clock -name clk_rx -period 8.000 [get_ports rgmii_rx_clk]
+
+# MIPI D-PHY byte clock. 4 lanes at 750 Mb/s gives 93.75 MHz; this is
+# constrained a little tight to leave margin.
+create_clock -name clk_cam -period 10.000 [get_pins u_pll_dphy/clk_byte_o]
+
+#---------------------------------------------------------------------
+# Generated clocks from the system PLL
+#---------------------------------------------------------------------
+create_generated_clock -name clk_sys  -source [get_ports clk_ref] \
+    -multiply_by 5 [get_pins u_pll/clkop_o]
+create_generated_clock -name clk_sens -source [get_ports clk_ref] \
+    -multiply_by 24 -divide_by 25 [get_pins u_pll/clkos_o]
+
+#---------------------------------------------------------------------
+# Asynchronous clock groups
+#
+# These three domains are genuinely unrelated and every crossing
+# between them goes through async_fifo or bit_sync. Declaring them
+# asynchronous keeps the tool from trying to close paths that do not
+# exist; it does NOT excuse an unsynchronised crossing, and any new
+# one must use the library in cam_lib.v.
+#---------------------------------------------------------------------
+set_clock_groups -asynchronous \
+    -group {clk_sys} \
+    -group {clk_rx}  \
+    -group {clk_cam}
+
+#---------------------------------------------------------------------
+# RGMII receive - source-synchronous input
+#
+# The DP83867 is configured by phy_init into Shift mode, so the PHY
+# delays RX_CLK internally and the data is centre-aligned at the FPGA
+# pin. Budget: T_setup 1.0 ns, T_hold 1.0 ns around the clock edge.
+# If you instead choose board delay (Aligned mode plus 1.5 ns of extra
+# clock trace), these numbers change and the RTL comment in
+# rgmii_mac.v must be updated to match.
+#---------------------------------------------------------------------
+set_input_delay -clock clk_rx -max 1.000 \
+    [get_ports {rgmii_rxd[*] rgmii_rx_ctl}]
+set_input_delay -clock clk_rx -min -1.000 \
+    [get_ports {rgmii_rxd[*] rgmii_rx_ctl}]
+set_input_delay -clock clk_rx -max 1.000 -clock_fall -add_delay \
+    [get_ports {rgmii_rxd[*] rgmii_rx_ctl}]
+set_input_delay -clock clk_rx -min -1.000 -clock_fall -add_delay \
+    [get_ports {rgmii_rxd[*] rgmii_rx_ctl}]
+
+#---------------------------------------------------------------------
+# RGMII transmit - source-synchronous output
+#
+# GTX_CLK is forwarded through an ODDRX1F with a 1/0 pattern so it is
+# edge-aligned with the data at the pin. The DP83867 adds the receive
+# skew internally.
+#---------------------------------------------------------------------
+set_output_delay -clock clk_sys -max 1.000 \
+    [get_ports {rgmii_txd[*] rgmii_tx_ctl}]
+set_output_delay -clock clk_sys -min -0.800 \
+    [get_ports {rgmii_txd[*] rgmii_tx_ctl}]
+set_output_delay -clock clk_sys -max 1.000 -clock_fall -add_delay \
+    [get_ports {rgmii_txd[*] rgmii_tx_ctl}]
+set_output_delay -clock clk_sys -min -0.800 -clock_fall -add_delay \
+    [get_ports {rgmii_txd[*] rgmii_tx_ctl}]
+
+#---------------------------------------------------------------------
+# Slow and static I/O - no timing requirement worth closing
+#---------------------------------------------------------------------
+set_false_path -to   [get_ports {led[*]}]
+set_false_path -to   [get_ports {phy_reset_n cam_reset_n iso_in_en iso_out}]
+set_false_path -from [get_ports {por_n phy_int_n iso_in[*] cam_flash}]
+set_false_path -to   [get_ports {phy_mdc phy_mdio_o cam_scl_oe cam_sda_oe}]
+set_false_path -from [get_ports {phy_mdio_i cam_sda_i}]
+
+# The sensor reference clock is forwarded, not captured.
+set_false_path -to [get_ports cam_extclk]
+
+#---------------------------------------------------------------------
+# Multicycle: quasi-static configuration registers crossing into the
+# camera byte-clock domain through bit_sync. Every field is stable for
+# thousands of cycles before it is used.
+#---------------------------------------------------------------------
+set_max_delay -datapath_only 10.000 \
+    -from [get_cells u_rf/cfg_*] -to [get_cells u_cfgs/s0*]

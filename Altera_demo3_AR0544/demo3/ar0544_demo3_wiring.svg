@@ -1,0 +1,460 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2070" height="1624" viewBox="0 0 2070 1624" role="img" aria-label="Wiring diagram linking the AR0544 image sensor, the AR0544 Demo3 camera headboard and the Demo3 baseboard" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxYmVkNTdlZi1hODY1LTRmODgtOTc4Mi0wZGFlZDc2YTYwMjAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIBWgChh2gKwxaLwwiwWfF8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmZmFlZTNhYS01ZGNjLTRkYTAtYjhiNy0zNmJhYWY5ZTYyODVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo1a8xuKe6yyQasjJjGNGrzwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggXNpD2dH1Jgibz8a2nzXVF7q+dyL3JYpahJB1jqMmN6+kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaLFU/JEZsjbi687hYsMdJLgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIG0XZ6ZEJMB/1PnVWmFuqHJofqtClAJsSe/hrD0AiaHBZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEcZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjFiZWQ1N2VmLWE4NjUtNGY4OC05NzgyLTBkYWVkNzZhNjAyMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjQ0MGVkOTBiLTUxYmQtNDM2Mi1iZjFiLTk3YTBiYTY5NzAwNHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBc2kPZ0fUmCJvPxrafNdUXur53IvclilqEkHWOoyY3r6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggw19sRNDQt/XgtOFfDT+gW5CElG1LNMHIrJ9P2gZ5NreiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggkyvjkLcK1lFSWThaBvgmzE4Wpxz7Na/RqFIIsle4QKx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQEyYf+pqvelWHUuA61RnpIUpypfONzWAZGi8X91t1uPzaou2k2HlL+l/2zwlhzfxNjJgEkzKzWLarJq5CSRcPrE=</c2pa:manifest></metadata>
+<defs>
+<marker id="ar-12823b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#12823b"/></marker>
+<marker id="as-12823b" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#12823b"/></marker>
+<marker id="ar-1c2128" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1c2128"/></marker>
+<marker id="as-1c2128" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#1c2128"/></marker>
+<marker id="ar-1f6feb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f6feb"/></marker>
+<marker id="as-1f6feb" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#1f6feb"/></marker>
+<marker id="ar-57606a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#57606a"/></marker>
+<marker id="as-57606a" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#57606a"/></marker>
+<marker id="ar-8250df" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8250df"/></marker>
+<marker id="as-8250df" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#8250df"/></marker>
+<marker id="ar-8c959f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8c959f"/></marker>
+<marker id="as-8c959f" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#8c959f"/></marker>
+<marker id="ar-9aa5b1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa5b1"/></marker>
+<marker id="as-9aa5b1" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#9aa5b1"/></marker>
+<marker id="ar-bf2c7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#bf2c7a"/></marker>
+<marker id="as-bf2c7a" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#bf2c7a"/></marker>
+<marker id="ar-c26a00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c26a00"/></marker>
+<marker id="as-c26a00" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#c26a00"/></marker>
+<marker id="ar-cf222e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#cf222e"/></marker>
+<marker id="as-cf222e" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M 10 0 L 0 5 L 10 10 z" fill="#cf222e"/></marker>
+</defs>
+<rect width="2070" height="1624" fill="#ffffff"/>
+<text x="30" y="41" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1c2128">AR0544  ↔  Camera Headboard  ↔  Demo3 Baseboard — Interconnect Diagram</text>
+<text x="30" y="66" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a">Camera: AR0544CSSC11SMKAH3-GEVB (5 MP RGB, 11° CRA)   •   Baseboard: AGB1N0CS-GEVK (Demo3)   •   Sensor: AR0544 ODCSP47 (47-ball CSP)</text>
+<line x1="30" y1="80" x2="2040" y2="80" stroke="#8c959f" stroke-width="1"/>
+<rect x="66" y="96" width="720" height="1204" rx="10" fill="#fcfdff" stroke="#1f6feb" stroke-width="2.0"/>
+<path d="M 66 106 a10,10 0 0 1 10,-10 h700 a10,10 0 0 1 10,10 v28 h-720 z" fill="#1f6feb" fill-opacity="0.10"/>
+<text x="80" y="113" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1c2128">CAMERA MODULE  (Demo3 headboard + lens + tripod block)</text>
+<text x="80" y="128" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="400" fill="#57606a">AR0544CSSC11SMKAH3-GEVB   —   sch. AR0544_CSP47_Demo3Head rev 1.0</text>
+<rect x="1022" y="96" width="800" height="1204" rx="10" fill="#fcfdfc" stroke="#12823b" stroke-width="2.0"/>
+<path d="M 1022 106 a10,10 0 0 1 10,-10 h780 a10,10 0 0 1 10,10 v28 h-800 z" fill="#12823b" fill-opacity="0.10"/>
+<text x="1036" y="113" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1c2128">DEMO3 BASEBOARD</text>
+<text x="1036" y="128" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="400" fill="#57606a">AGB1N0CS-GEVK   —   EVBUM2310/D</text>
+<text x="895.0" y="113" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c2128">J1  ⬌  P5</text>
+<text x="895.0" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">52-pin QFS-026-04.25-L-D-A-RT1</text>
+<rect x="90" y="150" width="280" height="1130" rx="8" fill="#eef4ff" stroke="#1f6feb" stroke-width="2.0"/>
+<rect x="91" y="151" width="42" height="1128" rx="7" fill="#1f6feb" fill-opacity="0.16"/>
+<text x="107.0" y="715.0" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2128" transform="rotate(-90 107.0 715.0)">AR0544  (U9)</text>
+<text x="125.0" y="715.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="400" fill="#57606a" transform="rotate(-90 125.0 715.0)">ODCSP47  ·  2592×1944  ·  1.4 µm stacked BSI</text>
+<rect x="800" y="150" width="190" height="1130" rx="8" fill="#f6f8fa" stroke="#424a53" stroke-width="1.5"/>
+<line x1="895.0" y1="156" x2="895.0" y2="1274" stroke="#8c959f" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="846" y="144" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9" font-weight="400" fill="#57606a" font-style="italic">headboard</text>
+<text x="948" y="144" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9" font-weight="400" fill="#57606a" font-style="italic">Demo3</text>
+<rect x="62" y="158" width="1764" height="156" rx="5" fill="#1f6feb" fill-opacity="0.045" stroke="#1f6feb" stroke-opacity="0.25" stroke-width="1"/>
+<text x="50" y="236.0" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f6feb" letter-spacing="1.4" transform="rotate(-90 50 236.0)">MIPI CSI-2</text>
+<rect x="140" y="180" width="220" height="126" rx="5" fill="#ffffff" stroke="#1f6feb" stroke-width="1.3"/>
+<text x="151" y="198" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f6feb">MIPI D-PHY transmitter</text>
+<text x="151" y="215" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">2 data lanes + 1 clock lane</text>
+<text x="151" y="229.2" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#57606a">≤ 1.72 Gbps per lane</text>
+<text x="151" y="243.39999999999998" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">ZP0/ZN0 = B6/A6   lane 0</text>
+<text x="151" y="257.09999999999997" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">ZP1/ZN1 = B4/A4   lane 1</text>
+<text x="151" y="270.79999999999995" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">CP /CN  = B5/A5   clock</text>
+<text x="151" y="284.49999999999994" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">DPCM 10→8 compression option</text>
+<text x="151" y="298.19999999999993" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">EXT_0P4V_MIPI (B3) = 0.4 V SLVS</text>
+<rect x="472" y="186" width="292" height="112" rx="5" fill="#ffffff" stroke="#1f6feb" stroke-width="1.3"/>
+<text x="483" y="204" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f6feb">U11  FSA646AUCX</text>
+<text x="483" y="221" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">6-pair D-PHY / C-PHY mux + ESD</text>
+<text x="483" y="235.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#1f6feb">1-2 = D-PHY, 2 lanes   ◀ default</text>
+<text x="483" y="249.89999999999998" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="400" fill="#57606a">2-3 = C-PHY, 2 trios</text>
+<text x="483" y="264.09999999999997" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">100 Ω differential, length-matched</text>
+<text x="380" y="200" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1f6feb">B6 / A6</text>
+<path d="M 370,206 L 472,206" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<path d="M 764,206 L 800,206" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<rect x="804" y="195" width="182" height="22" rx="3" fill="#1f6feb" fill-opacity="0.09" stroke="#1f6feb" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="210" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#1f6feb">49 / 51</text>
+<text x="981" y="210" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">MH_DATA0_P/N</text>
+<path d="M 990,206 L 1022,206" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<text x="380" y="238" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1f6feb">B4 / A4</text>
+<path d="M 370,244 L 472,244" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<path d="M 764,244 L 800,244" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<rect x="804" y="233" width="182" height="22" rx="3" fill="#1f6feb" fill-opacity="0.09" stroke="#1f6feb" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="248" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#1f6feb"> 1 /  3</text>
+<text x="981" y="248" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">MH_DATA1_P/N</text>
+<path d="M 990,244 L 1022,244" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<text x="380" y="276" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1f6feb">B5 / A5</text>
+<path d="M 370,282 L 472,282" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<path d="M 764,282 L 800,282" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<rect x="804" y="271" width="182" height="22" rx="3" fill="#1f6feb" fill-opacity="0.09" stroke="#1f6feb" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="286" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#1f6feb">52 / 50</text>
+<text x="981" y="286" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">MH_CLK_P/N</text>
+<path d="M 990,282 L 1022,282" fill="none" stroke="#1f6feb" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-1f6feb)"/>
+<rect x="62" y="322" width="1764" height="128" rx="5" fill="#12823b" fill-opacity="0.045" stroke="#12823b" stroke-opacity="0.25" stroke-width="1"/>
+<text x="50" y="386.0" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#12823b" letter-spacing="1.4" transform="rotate(-90 50 386.0)">I²C CONTROL</text>
+<rect x="140" y="344" width="220" height="90" rx="5" fill="#ffffff" stroke="#12823b" stroke-width="1.3"/>
+<text x="151" y="362" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#12823b">I²C target + OTPM</text>
+<text x="151" y="379" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">Fast-mode+, up to 1 MHz</text>
+<text x="151" y="393.2" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">2360 B OTPM: LSC coeffs,</text>
+<text x="151" y="406.9" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">module ID, calibration</text>
+<text x="151" y="420.59999999999997" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">addr strap: GPI2 = SADDR</text>
+<rect x="472" y="344" width="292" height="92" rx="5" fill="#ffffff" stroke="#12823b" stroke-width="1.3"/>
+<text x="483" y="362" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#12823b">SW3 TS3A24157  +  U7 NLSX4373</text>
+<text x="483" y="379" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">I²C switch (Demo ↔ slave) + level shift</text>
+<text x="483" y="392.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#12823b">U8 N24C64 · 64 kbit LSC EEPROM · 0xA8</text>
+<text x="483" y="406.4" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">P24 debug tap · P27 EEPROM address</text>
+<text x="483" y="420.09999999999997" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">P25 / P26 multi-camera slave / master</text>
+<text x="380" y="364" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#12823b">SCL (C2)</text>
+<path d="M 370,370 L 472,370" fill="none" stroke="#12823b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-12823b)"/>
+<path d="M 764,370 L 800,370" fill="none" stroke="#12823b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="804" y="359" width="182" height="22" rx="3" fill="#12823b" fill-opacity="0.09" stroke="#12823b" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="374" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#12823b">43</text>
+<text x="981" y="374" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">HEAD_SCL</text>
+<path d="M 1022,370 L 990,370" fill="none" stroke="#12823b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-12823b)"/>
+<text x="380" y="400" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#12823b">SDA (A2)</text>
+<path d="M 370,406 L 472,406" fill="none" stroke="#12823b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-12823b)" marker-start="url(#as-12823b)"/>
+<path d="M 764,406 L 800,406" fill="none" stroke="#12823b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="804" y="395" width="182" height="22" rx="3" fill="#12823b" fill-opacity="0.09" stroke="#12823b" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="410" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#12823b">37</text>
+<text x="981" y="410" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">HEAD_SDA</text>
+<path d="M 1022,406 L 990,406" fill="none" stroke="#12823b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-12823b)" marker-start="url(#as-12823b)"/>
+<rect x="62" y="458" width="1764" height="168" rx="5" fill="#c26a00" fill-opacity="0.045" stroke="#c26a00" stroke-opacity="0.25" stroke-width="1"/>
+<text x="50" y="542.0" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#c26a00" letter-spacing="1.4" transform="rotate(-90 50 542.0)">CLOCK TREE</text>
+<rect x="140" y="480" width="220" height="130" rx="5" fill="#ffffff" stroke="#c26a00" stroke-width="1.3"/>
+<text x="151" y="498" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#c26a00">PLL + timing control</text>
+<text x="151" y="515" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="400" fill="#57606a">EXTCLK 6 – 48 MHz  (ball D5)</text>
+<text x="151" y="529.2" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">→ pre-divider → ×N VCO</text>
+<text x="151" y="542.9000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">→ vt_pix_clk  (array + ADC)</text>
+<text x="151" y="556.6000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">→ op_pix_clk  (D-PHY byte clk)</text>
+<text x="151" y="570.3000000000002" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#c26a00">board default: 20 MHz</text>
+<text x="151" y="584.5000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">Y1 = MC3225Z20.0000C19XSH</text>
+<rect x="472" y="476" width="292" height="146" rx="5" fill="#ffffff" stroke="#c26a00" stroke-width="1.3"/>
+<text x="483" y="494" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#c26a00">P20  clock select  (2×4 header)</text>
+<text x="483" y="511" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#c26a00">1-3  on-board 20 MHz Y1   ◀ default</text>
+<text x="483" y="525.2" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="400" fill="#57606a">3-5  Demo3 MCLK (HB_MCLK)</text>
+<text x="483" y="539.4000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="400" fill="#57606a">2-4  slave clock in (multi-camera)</text>
+<text x="483" y="553.6000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="400" fill="#57606a">6-8  enable master clock out</text>
+<text x="483" y="567.8000000000002" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">U2–U5  NLV7SZ97D config. gates</text>
+<text x="483" y="581.5000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">TP8 S_CLK · TP9 FB_CLK · TP10 M_CLK</text>
+<text x="483" y="594.7000000000003" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9" font-weight="400" fill="#57606a">all clock nets swing at 1.8 V</text>
+<text x="380" y="514" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#c26a00">EXTCLK</text>
+<path d="M 472,520 L 370,520" fill="none" stroke="#c26a00" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-c26a00)"/>
+<path d="M 800,552 L 764,552" fill="none" stroke="#c26a00" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-c26a00)"/>
+<rect x="804" y="541" width="182" height="22" rx="3" fill="#c26a00" fill-opacity="0.09" stroke="#c26a00" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="556" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#c26a00">44</text>
+<text x="981" y="556" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">MCLK → HB_MCLK</text>
+<path d="M 1022,552 L 990,552" fill="none" stroke="#c26a00" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-c26a00)"/>
+<rect x="804" y="581" width="182" height="22" rx="3" fill="#c26a00" fill-opacity="0.09" stroke="#c26a00" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="596" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#c26a00"> 5</text>
+<text x="981" y="596" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">S_RESERVED1 = FB_CLK</text>
+<path d="M 764,592 L 800,592" fill="none" stroke="#c26a00" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ar-c26a00)"/>
+<path d="M 990,592 L 1022,592" fill="none" stroke="#c26a00" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ar-c26a00)"/>
+<rect x="62" y="638" width="1764" height="140" rx="5" fill="#8250df" fill-opacity="0.045" stroke="#8250df" stroke-opacity="0.25" stroke-width="1"/>
+<text x="50" y="708.0" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8250df" letter-spacing="1.4" transform="rotate(-90 50 708.0)">RESET</text>
+<rect x="140" y="660" width="220" height="96" rx="5" fill="#ffffff" stroke="#8250df" stroke-width="1.3"/>
+<text x="151" y="678" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8250df">Power-on / reset control</text>
+<text x="151" y="695" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">XSHUTDOWN (E5) low = hard reset</text>
+<text x="151" y="708.7" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">registers → defaults, D-PHY → LP-11</text>
+<text x="151" y="722.4000000000001" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">soft reset over I²C after release</text>
+<text x="151" y="736.1000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">TEST (C7) strapped 1-2 = normal</text>
+<rect x="472" y="656" width="292" height="112" rx="5" fill="#ffffff" stroke="#8250df" stroke-width="1.3"/>
+<text x="483" y="674" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8250df">U6  ADM6711 supervisor</text>
+<text x="483" y="691" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#8250df">MR asserted → RESET low for 240 ms</text>
+<text x="483" y="705.7" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">MR sources, wired-OR:</text>
+<text x="483" y="719.9000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">  • HB_RST_L from Demo3  (J1-31)</text>
+<text x="483" y="733.6000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">  • SW1 manual push-button</text>
+<text x="483" y="747.3000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">  • internal POR when rail valid</text>
+<path d="M 472,702 L 370,702" fill="none" stroke="#8250df" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-8250df)"/>
+<text x="380" y="696" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#8250df">XSHUTDOWN</text>
+<rect x="804" y="691" width="182" height="22" rx="3" fill="#8250df" fill-opacity="0.09" stroke="#8250df" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="706" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#8250df">31</text>
+<text x="981" y="706" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">HEAD_RESET_L</text>
+<path d="M 800,702 L 764,702" fill="none" stroke="#8250df" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-8250df)"/>
+<path d="M 1022,702 L 990,702" fill="none" stroke="#8250df" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-8250df)"/>
+<rect x="804" y="735" width="182" height="22" rx="3" fill="#8250df" fill-opacity="0.09" stroke="#8250df" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="750" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#8250df">26</text>
+<text x="981" y="750" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">S_SP5 → XSHUTDOWN</text>
+<path d="M 800,746 L 764,746" fill="none" stroke="#8250df" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4" marker-end="url(#ar-8250df)"/>
+<path d="M 1022,746 L 990,746" fill="none" stroke="#8250df" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4" marker-end="url(#ar-8250df)"/>
+<rect x="62" y="790" width="1764" height="176" rx="5" fill="#bf2c7a" fill-opacity="0.045" stroke="#bf2c7a" stroke-opacity="0.25" stroke-width="1"/>
+<text x="50" y="878.0" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#bf2c7a" letter-spacing="1.4" transform="rotate(-90 50 878.0)">GPIO / EVENT</text>
+<rect x="140" y="812" width="220" height="144" rx="5" fill="#ffffff" stroke="#bf2c7a" stroke-width="1.3"/>
+<text x="151" y="830" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#bf2c7a">GPIO / event block</text>
+<text x="151" y="847" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">GPIO0 (D2)  FLASH strobe out</text>
+<text x="151" y="860.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">GPIO1 (D3)  SHUTTER out, or</text>
+<text x="151" y="874.4000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">            3D daisy-chain out</text>
+<text x="151" y="888.1000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">GPI2  (D4)  SADDR / trigger /</text>
+<text x="151" y="901.8000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">            standby   (in only)</text>
+<text x="151" y="915.5000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">GPI3  (B2)  daisy-chain in /</text>
+<text x="151" y="929.2000000000003" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">            trigger   (in only)</text>
+<rect x="472" y="808" width="292" height="152" rx="5" fill="#ffffff" stroke="#bf2c7a" stroke-width="1.3"/>
+<text x="483" y="826" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#bf2c7a">Jumper headers  (2 mm pitch)</text>
+<text x="483" y="843" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">P4 1×4  FLASH: +5V0 / GND / FLASH / +3V3</text>
+<text x="483" y="856.2" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">P5 1×3  GPIO1 / SHUTTER          open</text>
+<text x="483" y="869.4000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">P6 1×3  GPIO2 pull hi / lo         open</text>
+<text x="483" y="882.6000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#bf2c7a">P9 2×3  GPIO3 / TRIGGER            3-5</text>
+<text x="483" y="895.8000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">P2 / P3  ATEST1 (E7) / ATEST2 (C1)</text>
+<text x="483" y="909.0000000000002" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">open = drive externally or probe;</text>
+<text x="483" y="922.7000000000003" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#57606a">jumpered = strap to a fixed level.</text>
+<rect x="804" y="829" width="182" height="22" rx="3" fill="#bf2c7a" fill-opacity="0.09" stroke="#bf2c7a" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="844" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#bf2c7a">27</text>
+<text x="981" y="844" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">S_SP0 → TEST</text>
+<path d="M 764,840 L 800,840" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 990,840 L 1022,840" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-bf2c7a)" marker-start="url(#as-bf2c7a)"/>
+<rect x="804" y="859" width="182" height="22" rx="3" fill="#bf2c7a" fill-opacity="0.09" stroke="#bf2c7a" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="874" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#bf2c7a">28</text>
+<text x="981" y="874" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">S_SP1 → GPIO0</text>
+<path d="M 764,870 L 800,870" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 990,870 L 1022,870" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-bf2c7a)" marker-start="url(#as-bf2c7a)"/>
+<rect x="804" y="889" width="182" height="22" rx="3" fill="#bf2c7a" fill-opacity="0.09" stroke="#bf2c7a" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="904" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#bf2c7a">33</text>
+<text x="981" y="904" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">S_SP2 → GPIO1</text>
+<path d="M 764,900 L 800,900" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 990,900 L 1022,900" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-bf2c7a)" marker-start="url(#as-bf2c7a)"/>
+<rect x="804" y="913" width="182" height="22" rx="3" fill="#bf2c7a" fill-opacity="0.09" stroke="#bf2c7a" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="928" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#bf2c7a">30</text>
+<text x="981" y="928" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">S_SP3 → GPI2</text>
+<path d="M 764,924 L 800,924" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 990,924 L 1022,924" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-bf2c7a)" marker-start="url(#as-bf2c7a)"/>
+<rect x="804" y="937" width="182" height="22" rx="3" fill="#bf2c7a" fill-opacity="0.09" stroke="#bf2c7a" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="952" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#bf2c7a">32</text>
+<text x="981" y="952" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">S_SP4 → GPI3</text>
+<path d="M 764,948 L 800,948" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 990,948 L 1022,948" fill="none" stroke="#bf2c7a" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-bf2c7a)" marker-start="url(#as-bf2c7a)"/>
+<path d="M 370,884 L 472,884" fill="none" stroke="#bf2c7a" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-bf2c7a)" marker-start="url(#as-bf2c7a)"/>
+<text x="380" y="878" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#bf2c7a">GPIO/GPI</text>
+<rect x="62" y="978" width="1764" height="312" rx="5" fill="#cf222e" fill-opacity="0.045" stroke="#cf222e" stroke-opacity="0.25" stroke-width="1"/>
+<text x="50" y="1134.0" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#cf222e" letter-spacing="1.4" transform="rotate(-90 50 1134.0)">POWER DISTRIBUTION</text>
+<rect x="140" y="1000" width="220" height="282" rx="5" fill="#ffffff" stroke="#cf222e" stroke-width="1.3"/>
+<text x="151" y="1018" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#cf222e">Power domains (47 balls)</text>
+<text x="151" y="1038" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">VAA_ANA_ACORE</text>
+<text x="151" y="1048.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">E2, F7</text>
+<text x="349" y="1038" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">2.8 V</text>
+<text x="151" y="1063" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">VAA_ANA_PIX</text>
+<text x="151" y="1073.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">D1, F3, F4</text>
+<text x="349" y="1063" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">2.8 V</text>
+<text x="151" y="1088" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">VAA18_ANA_ACORE</text>
+<text x="151" y="1098.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">D8, E3, F2, F6</text>
+<text x="349" y="1088" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">1.8 V</text>
+<text x="151" y="1113" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">VDDIO1V8[3:0]</text>
+<text x="151" y="1123.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">B1, C3, C8, D6</text>
+<text x="349" y="1113" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">1.8 V</text>
+<text x="151" y="1138" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">VDD_DIG_DCORE</text>
+<text x="151" y="1148.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">A3, B7, D7</text>
+<text x="349" y="1138" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">1.05 V</text>
+<text x="151" y="1163" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">VDD_DIG_ACORE</text>
+<text x="151" y="1173.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">E1, F5</text>
+<text x="349" y="1163" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">1.05 V</text>
+<text x="151" y="1188" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">VDD_DIG_PLL</text>
+<text x="151" y="1198.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">A8, B8</text>
+<text x="349" y="1188" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">1.05 V</text>
+<text x="151" y="1213" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">DVDD1V2PHY</text>
+<text x="151" y="1223.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">A7, C4</text>
+<text x="349" y="1213" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">1.05 V</text>
+<text x="151" y="1238" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#1c2128">EXT_0P4V_MIPI</text>
+<text x="151" y="1248.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" font-weight="400" fill="#57606a">B3</text>
+<text x="349" y="1238" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#cf222e">0.4 V</text>
+<text x="151" y="1266" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#57606a">GND  C5 C6 E6 (dig) · E4 E8 (acore)</text>
+<text x="151" y="1277" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#57606a">     F1 F8 (analog / pixel)</text>
+<rect x="472" y="996" width="292" height="288" rx="6" fill="#ffffff" stroke="#cf222e" stroke-width="1.4"/>
+<text x="483" y="1013" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1c2128">On-board regulation + straps</text>
+<text x="483" y="1032" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">+2V8_VAA_HB</text>
+<text x="483" y="1042.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ VAA, VAA-PIX</text>
+<text x="753" y="1042.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">direct</text>
+<text x="483" y="1055" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">+1V8_HB</text>
+<text x="483" y="1065.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ VAA1V8_ANA</text>
+<text x="753" y="1065.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">direct</text>
+<text x="483" y="1078" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">+VDDIO_LS (1.8 V)</text>
+<text x="483" y="1088.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ VDD-IO</text>
+<text x="753" y="1088.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">P16 1-2 ◀ def</text>
+<text x="483" y="1101" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">+2V8_VDDIO_HB</text>
+<text x="483" y="1111.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ VDD-IO, 2.8 V option</text>
+<text x="753" y="1111.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">P16 2-3</text>
+<text x="483" y="1124" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">+1V2_HB</text>
+<text x="483" y="1134.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ VDD_SEL rail</text>
+<text x="753" y="1134.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">P98 1-2 ◀ def</text>
+<text x="483" y="1147" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">U10 NCP59748</text>
+<text x="483" y="1157.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ on-board 1.05 V</text>
+<text x="753" y="1157.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">P98 2-3</text>
+<text x="483" y="1170" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">VDD_SEL</text>
+<text x="483" y="1180.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ VDD, -PHY, -PLL, -ANA</text>
+<text x="483" y="1193" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">U1 NCP135 (100 mA)</text>
+<text x="483" y="1203.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ VDD-SLVS 0.4 V</text>
+<text x="753" y="1203.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">P1 1-2</text>
+<text x="483" y="1216" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">+3V3_HB</text>
+<text x="483" y="1226.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ peripheral 3.3 V</text>
+<text x="753" y="1226.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">gates, EEPROM</text>
+<text x="483" y="1239" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c2128">+5V0_HB</text>
+<text x="483" y="1249.5" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">→ +5V0 (LED, flash)</text>
+<text x="753" y="1249.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.3" font-weight="400" fill="#cf222e">P99 1-2 ◀ def</text>
+<line x1="482" y1="1259" x2="754" y2="1259" stroke="#8c959f" stroke-width="1"/>
+<text x="483" y="1274" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="8.3" font-weight="400" fill="#57606a" font-style="italic">JP2/3/4/7/8/9/10/12/14/22 = cut-trace current shunts</text>
+<path d="M 472,1130 L 370,1130" fill="none" stroke="#cf222e" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<text x="380" y="1124" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#cf222e">9 rails</text>
+<rect x="804" y="1011" width="182" height="22" rx="3" fill="#cf222e" fill-opacity="0.09" stroke="#cf222e" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1026" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#cf222e">39</text>
+<text x="981" y="1026" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">+5V0_HEAD  5.0 V</text>
+<path d="M 800,1022 L 764,1022" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<path d="M 1022,1022 L 990,1022" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<rect x="804" y="1043" width="182" height="22" rx="3" fill="#cf222e" fill-opacity="0.09" stroke="#cf222e" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1058" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#cf222e">47</text>
+<text x="981" y="1058" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">+3V3_HEAD  3.3 V</text>
+<path d="M 800,1054 L 764,1054" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<path d="M 1022,1054 L 990,1054" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<rect x="804" y="1075" width="182" height="22" rx="3" fill="#cf222e" fill-opacity="0.09" stroke="#cf222e" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1090" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#cf222e">38</text>
+<text x="981" y="1090" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">+2V8_VAA_HEAD</text>
+<path d="M 800,1086 L 764,1086" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<path d="M 1022,1086 L 990,1086" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<rect x="804" y="1107" width="182" height="22" rx="3" fill="#cf222e" fill-opacity="0.09" stroke="#cf222e" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1122" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#cf222e">48</text>
+<text x="981" y="1122" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">+2V8_VDDIO_HEAD</text>
+<path d="M 800,1118 L 764,1118" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<path d="M 1022,1118 L 990,1118" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<rect x="804" y="1139" width="182" height="22" rx="3" fill="#cf222e" fill-opacity="0.09" stroke="#cf222e" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1154" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#cf222e">42</text>
+<text x="981" y="1154" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">+1V8_HEAD  1.8 V</text>
+<path d="M 800,1150 L 764,1150" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<path d="M 1022,1150 L 990,1150" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<rect x="804" y="1171" width="182" height="22" rx="3" fill="#cf222e" fill-opacity="0.09" stroke="#cf222e" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1186" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#cf222e">46</text>
+<text x="981" y="1186" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">+1V2_HEAD  1.2 V</text>
+<path d="M 800,1182 L 764,1182" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<path d="M 1022,1182 L 990,1182" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<rect x="804" y="1203" width="182" height="22" rx="3" fill="#cf222e" fill-opacity="0.09" stroke="#cf222e" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1218" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#cf222e">15</text>
+<text x="981" y="1218" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">VDDIO_SENSE</text>
+<path d="M 800,1214 L 764,1214" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<path d="M 1022,1214 L 990,1214" fill="none" stroke="#cf222e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-cf222e)"/>
+<rect x="804" y="1243" width="182" height="22" rx="3" fill="#57606a" fill-opacity="0.09" stroke="#57606a" stroke-opacity="0.35" stroke-width="0.9"/>
+<text x="810" y="1258" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#57606a">53-55</text>
+<text x="981" y="1258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="400" fill="#1c2128">GND bus / alignment</text>
+<path d="M 800,1254 L 764,1254" fill="none" stroke="#57606a" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 990,1254 L 1022,1254" fill="none" stroke="#57606a" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1034" y="182" width="268" height="124" rx="5" fill="#ffffff" stroke="#1f6feb" stroke-width="1.3"/>
+<text x="1045" y="200" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1f6feb">MIPI D-PHY receiver</text>
+<text x="1045" y="217" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#57606a">4 lanes, ≤ 768 Mbps per lane</text>
+<text x="1045" y="230.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">D-PHY v1.00.00</text>
+<text x="1045" y="244.39999999999998" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">also HiSPi 4L @ 1 Gbps,</text>
+<text x="1045" y="258.09999999999997" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">CCP 1L, parallel 10/12-bit</text>
+<text x="1045" y="271.79999999999995" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">per-RX FIFO → 150 MHz core</text>
+<rect x="1034" y="352" width="268" height="84" rx="5" fill="#ffffff" stroke="#12823b" stroke-width="1.3"/>
+<text x="1045" y="370" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#12823b">I²C master</text>
+<text x="1045" y="387" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">100 k / 400 k / 1 MHz</text>
+<text x="1045" y="400.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">HDMI 0x72 · clock gen 0xD2</text>
+<text x="1045" y="414.4" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">system EEPROM 0xA0</text>
+<rect x="1034" y="504" width="268" height="104" rx="5" fill="#ffffff" stroke="#c26a00" stroke-width="1.3"/>
+<text x="1045" y="522" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#c26a00">Clock generator</text>
+<text x="1045" y="539" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">programmed over I²C (0xD2)</text>
+<text x="1045" y="552.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">→ MCLK out to headboard</text>
+<text x="1045" y="566.4000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">← frame-buffer clock in</text>
+<text x="1045" y="580.1000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#57606a">FPGA core clock = 150 MHz</text>
+<rect x="1034" y="668" width="268" height="78" rx="5" fill="#ffffff" stroke="#8250df" stroke-width="1.3"/>
+<text x="1045" y="686" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#8250df">Reset control</text>
+<text x="1045" y="703" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">HEAD_RESET_L driver</text>
+<text x="1045" y="716.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">asserted by DevWare on</text>
+<text x="1045" y="730.4000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">connect / preset load</text>
+<rect x="1034" y="820" width="268" height="112" rx="5" fill="#ffffff" stroke="#bf2c7a" stroke-width="1.3"/>
+<text x="1045" y="838" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#bf2c7a">SP[5:0] control lines</text>
+<text x="1045" y="855" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">general-purpose, +3.3 V level</text>
+<text x="1045" y="868.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">SP0..SP4 → TEST, GPIO0/1,</text>
+<text x="1045" y="882.4000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">GPI2/3 on the headboard</text>
+<text x="1045" y="896.1000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">SP5 → XSHUTDOWN override</text>
+<text x="1045" y="909.8000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">HEAD_MOSI / MISO / SSN (SPI)</text>
+<rect x="1034" y="1000" width="268" height="174" rx="5" fill="#ffffff" stroke="#cf222e" stroke-width="1.3"/>
+<text x="1045" y="1018" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#cf222e">Power distribution</text>
+<text x="1045" y="1035" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#57606a">source: 5 V from the USB 3.0 bus</text>
+<text x="1045" y="1048.7" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">headboard power switch gates</text>
+<text x="1045" y="1062.4" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">and sequences the rails:</text>
+<text x="1045" y="1076.1000000000001" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#cf222e">+5V0  +3V3  +2V8_VAA</text>
+<text x="1045" y="1089.8000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#cf222e">+2V8_VDDIO  +1V8  +1V2</text>
+<text x="1045" y="1103.5000000000002" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">VDDIO_SENSE picks I/O level</text>
+<text x="1045" y="1117.2000000000003" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">every headboard rail comes</text>
+<text x="1045" y="1130.9000000000003" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">from the USB cable</text>
+<path d="M 1315,244 L 1315,1087" fill="none" stroke="#9aa5b1" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M 1302,244 L 1315,244" fill="none" stroke="#9aa5b1" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M 1302,394 L 1315,394" fill="none" stroke="#9aa5b1" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M 1302,556 L 1315,556" fill="none" stroke="#9aa5b1" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M 1302,707 L 1315,707" fill="none" stroke="#9aa5b1" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M 1302,876 L 1315,876" fill="none" stroke="#9aa5b1" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M 1302,1087 L 1315,1087" fill="none" stroke="#9aa5b1" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M 1315,420 L 1318,420" fill="none" stroke="#9aa5b1" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" marker-end="url(#ar-9aa5b1)"/>
+<text x="1321" y="412" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#57606a" font-style="italic">to FPGA fabric</text>
+<rect x="1318" y="182" width="492" height="458" rx="7" fill="#f5faf6" stroke="#12823b" stroke-width="1.6"/>
+<text x="1564.0" y="203" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1c2128">FPGA — Altera Arria II GX</text>
+<text x="1564.0" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="400" fill="#57606a">EP2AGX45DF25C4N</text>
+<rect x="1332" y="230" width="464" height="44" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="247" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">Video receivers + output FIFOs</text>
+<text x="1342" y="261" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">MIPI · HiSPi · CCP · parallel</text>
+<rect x="1332" y="282" width="464" height="40" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="299" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">Formatter</text>
+<text x="1342" y="313" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">bit packing / lane merge</text>
+<rect x="1332" y="330" width="464" height="44" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="347" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">DDR3 memory controller</text>
+<text x="1342" y="361" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">150 MHz · 750 MP/s peak</text>
+<rect x="1332" y="382" width="464" height="40" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="399" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">Frame buffer controller</text>
+<text x="1342" y="413" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">triple-buffered, self-timed</text>
+<rect x="1332" y="430" width="464" height="40" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="447" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">Video format generator</text>
+<text x="1342" y="461" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">720p60 / 1080p60</text>
+<rect x="1332" y="478" width="464" height="40" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="495" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">FX3 interface</text>
+<text x="1342" y="509" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">32-bit GPIF II</text>
+<rect x="1332" y="526" width="464" height="40" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="543" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">I²C interface</text>
+<text x="1342" y="557" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">sensor + on-board devices</text>
+<rect x="1332" y="574" width="464" height="44" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="1342" y="591" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1c2128">SPI config loader</text>
+<text x="1342" y="605" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="400" fill="#57606a">reads the external SPI EPROM</text>
+<rect x="1318" y="658" width="492" height="54" rx="6" fill="#ffffff" stroke="#12823b" stroke-width="1.4"/>
+<text x="1332" y="679" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1c2128">DDR3 SDRAM  64M×16</text>
+<text x="1332" y="696" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.2" font-weight="400" fill="#57606a">1 Gb frame buffer ≈ 3 frames of a 20 MP sensor</text>
+<rect x="1318" y="726" width="492" height="54" rx="6" fill="#ffffff" stroke="#12823b" stroke-width="1.4"/>
+<text x="1332" y="747" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1c2128">SPI EPROM</text>
+<text x="1332" y="764" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.2" font-weight="400" fill="#57606a">FPGA configuration image, written via FX3 SPI</text>
+<rect x="1318" y="794" width="492" height="58" rx="6" fill="#ffffff" stroke="#12823b" stroke-width="1.4"/>
+<text x="1332" y="815" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1c2128">ADV7526 HDMI transmitter  (0x72)</text>
+<text x="1332" y="832" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.2" font-weight="400" fill="#57606a">HDMI 1.4, 12-bit deep colour → J3</text>
+<rect x="1318" y="866" width="492" height="58" rx="6" fill="#ffffff" stroke="#12823b" stroke-width="1.4"/>
+<text x="1332" y="887" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1c2128">Cypress FX3  CYUSB3014-BZX</text>
+<text x="1332" y="904" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.2" font-weight="400" fill="#57606a">USB 3.0 SuperSpeed, ≤ 5 Gb/s → J2</text>
+<path d="M 1564.0,640 L 1564.0,658" fill="none" stroke="#12823b" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-12823b)"/>
+<path d="M 1564.0,712 L 1564.0,726" fill="none" stroke="#12823b" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 1564.0,780 L 1564.0,794" fill="none" stroke="#12823b" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-12823b)"/>
+<path d="M 1564.0,852 L 1564.0,866" fill="none" stroke="#12823b" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-12823b)"/>
+<path d="M 1315,1087 L 1494.0,1087 L 1494.0,924" fill="none" stroke="#cf222e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" marker-end="url(#ar-cf222e)"/>
+<rect x="1854" y="794" width="192" height="58" rx="6" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/>
+<text x="1950.0" y="818" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1c2128">HDMI monitor</text>
+<text x="1950.0" y="834" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9" font-weight="400" fill="#57606a">live preview without a PC</text>
+<path d="M 1810,823 L 1854,823" fill="none" stroke="#57606a" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-57606a)"/>
+<rect x="1854" y="866" width="192" height="100" rx="6" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/>
+<text x="1950.0" y="890" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1c2128">HOST PC</text>
+<text x="1950.0" y="908" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">DevWare / DevSuite</text>
+<text x="1950.0" y="924" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#57606a">USB 3.0 Type-B cable</text>
+<text x="1950.0" y="942" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9.3" font-weight="700" fill="#cf222e">do NOT use a USB 2 port</text>
+<text x="1950.0" y="956" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#57606a">bus 5 V powers the whole stack</text>
+<path d="M 1810,895 L 1854,895" fill="none" stroke="#57606a" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ar-57606a)" marker-start="url(#as-57606a)"/>
+<rect x="30" y="1322" width="2010" height="272" rx="8" fill="#f6f8fa" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="46" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1c2128">Legend</text>
+<line x1="122" y1="1342" x2="148" y2="1342" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<text x="155" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">MIPI CSI-2 (100 Ω differential)</text>
+<line x1="357.70000000000005" y1="1342" x2="383.70000000000005" y2="1342" stroke="#12823b" stroke-width="3" stroke-linecap="round"/>
+<text x="390.70000000000005" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">I²C control</text>
+<line x1="479.40000000000003" y1="1342" x2="505.40000000000003" y2="1342" stroke="#c26a00" stroke-width="3" stroke-linecap="round"/>
+<text x="512.4000000000001" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">clock</text>
+<line x1="566.9000000000001" y1="1342" x2="592.9000000000001" y2="1342" stroke="#8250df" stroke-width="3" stroke-linecap="round"/>
+<text x="599.9000000000001" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">reset / shutdown</text>
+<line x1="717.1000000000001" y1="1342" x2="743.1000000000001" y2="1342" stroke="#bf2c7a" stroke-width="3" stroke-linecap="round"/>
+<text x="750.1000000000001" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">GPIO / event / sync</text>
+<line x1="884.4000000000001" y1="1342" x2="910.4000000000001" y2="1342" stroke="#cf222e" stroke-width="3" stroke-linecap="round"/>
+<text x="917.4000000000001" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">power</text>
+<line x1="971.9000000000001" y1="1342" x2="997.9000000000001" y2="1342" stroke="#57606a" stroke-width="3" stroke-linecap="round"/>
+<text x="1004.9000000000001" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">ground, misc</text>
+<line x1="1099.3000000000002" y1="1342" x2="1125.3000000000002" y2="1342" stroke="#57606a" stroke-width="2" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="1132.3000000000002" y="1346" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#57606a">optional / strap-dependent</text>
+<line x1="46" y1="1360" x2="2024" y2="1360" stroke="#8c959f" stroke-width="1"/>
+<text x="46" y="1382" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1c2128">Signal path</text>
+<text x="46" y="1398" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• AR0544 balls → headboard muxes / buffers / regulators → J1 (52-pin QFS) ⬌ P5 on Demo3 → FPGA → FX3 → USB 3.0 → host PC running DevWare.</text>
+<text x="46" y="1412" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• Only MIPI lanes 0–1 plus the clock lane are populated. The AR0544 is a 2-lane D-PHY part, so J1 pins 2 / 4 / 6 / 8 (DATA2, DATA3) stay unused.</text>
+<text x="46" y="1426" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• Demo3 pin 5 is documented as S_RESERVED1 in EVBUM2310/D but is used as the frame-buffer clock (DEMO_FB_CLK) by the headboard — check both documents before reusing it.</text>
+<text x="46" y="1448" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1c2128">Bandwidth ceiling — check this before expecting 60 fps</text>
+<text x="46" y="1464" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• Sensor capability: 2 lanes × 1.72 Gbps = 3.44 Gbps.    Demo3 MIPI receiver: 2 lanes × 0.768 Gbps = 1.54 Gbps.   The baseboard, not the sensor, is the bottleneck.</text>
+<text x="46" y="1478" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• 5 MP × 10 bit × 60 fps ≈ 3.0 Gbps of pixel payload alone, i.e. about 1.5 Gbps per lane — roughly twice what this baseboard can receive. Blanking overhead makes it worse.</text>
+<text x="46" y="1492" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• Workable Demo3 configurations: ~30 fps at full resolution, DPCM 10→8 compression, a crop such as 1080p, or a skipped / binned / summed mode.</text>
+<text x="46" y="1514" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1c2128">Two documentation snags worth knowing</text>
+<text x="46" y="1530" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• EVBUM2310/D Table 1 lists HEAD_RESET_L with direction “Out”; the headboard manuals list the same pin as an input. The headboard view is the self-consistent one.</text>
+<text x="46" y="1544" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#57606a">• The AR0544 ball names carry both D-PHY and C-PHY aliases (ZP0_A0, ZN0_B0, CP_C0 …). The public data sheet specifies 2-lane D-PHY only; treat C-PHY as unconfirmed.</text>
+<text x="46" y="1584" text-anchor="start" font-family="Inter, Helvetica, Arial, sans-serif" font-size="9" font-weight="400" fill="#57606a" font-style="italic">Drawn from public onsemi documents: AR0544-PD/D rev. 12, EVBUM2310/D (Demo3), EVBUM2904/D (a comparable D-PHY headboard), and the AR0544_CSP47_Demo3Head schematic rev 1.0. Register-level and timing detail lives in the full AR0544 data sheet, which is released under NDA — verify there before committing a design.</text>
+</svg>

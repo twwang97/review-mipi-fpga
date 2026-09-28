@@ -1,0 +1,24 @@
+# Carrier board BOM - key items only.  Passives are summarised by function, not enumerated.
+# Connector and memory part numbers are representative of the correct class and pitch, not a validated selection.
+ref,qty,part_number,manufacturer,description,package,notes
+U1,1,LIFCL-40-9MG289I,Lattice,CrossLink-NX FPGA 39k LC 2 hardened D-PHY,289-csBGA 9.5x9.5 0.5 mm,industrial -40..+100 C Tj; via-in-pad mandatory
+U2,1,(1 Gb x16 DDR3L-800),TBD,DDR3L SDRAM 64Mx16 1.35 V,96-FBGA 0.8 mm,confirm package outline; single rank point-to-point
+U3,1,(128 Mb SPI NOR),TBD,configuration flash quad SPI 1.8 V,WSON-8 2x3 mm,
+U4,1,TPS62802YKAR,TI,step-down 1.0 V core,WCSP-6 0.35 mm,R_set 23.7k; force PWM for EMI
+U5,1,TPS62802YKAR,TI,step-down 1.35 V DDR3L,WCSP-6 0.35 mm,
+U6,1,TPS62802YKAR,TI,step-down 1.8 V,WCSP-6 0.35 mm,
+U7,1,TPS62802YKAR,TI,step-down 3.3 V,WCSP-6 0.35 mm,
+U8,1,TPS62801YKAR,TI,step-down 1.2 V,WCSP-6 0.35 mm,R_set 44.2k
+U9,1,TPD4E05U06DQAR,TI,4-channel ESD array 0.5 pF,USON-6,low-speed flex lines only
+Y1,1,(25 MHz +/-25 ppm XO),TBD,oscillator 1.8 V LVCMOS,2.5x2.0 mm,system + DDR3L PLL reference; NOT the recovered clock
+J1,1,DF40C-50DS-0.4V,Hirose,board-to-board 50-way 4 mm stack,12.4x2.9 mm,to TIDA-010083
+J2,1,(30-way 0.5 mm ZIF FPC),TBD,FPC connector top contact,18.6x5.3 mm,to sensor board
+L1-L5,5,(470 nH 0.6 A),TBD,inductor for TPS6280x,0603,
+FB1-FB4,4,(600 ohm at 100 MHz),TBD,ferrite bead pi filter,0402,rated for the DC load current
+C_BULK,2,22 uF 10 V X5R,-,5 V input bulk,0805,
+C_MID,16,4.7 uF 6.3 V X5R,-,per-rail mid-frequency decoupling,0402,4 per switching rail
+C_HF,48,0.1 uF X7R,-,FPGA and DDR3L decoupling ring,0201,12 on the core rail; see PDN analysis
+C_CHASSIS,3,1 nF 2 kV X7R,-,chassis HF bond,0603,2 kV part - a 50 V part fails short under ESD
+R_STRAP,8,1 % thin film,-,DP83867 four-level straps,0402,PHY address and RGMII skew; never tie a strap to a rail
+R_PU,3,2.2 k 1 %,-,MDIO / INT / I2C pull-ups,0402,to +VIO for MDIO and INT
+TP1,1,TC2050 footprint,Tag-Connect,JTAG pads no connector,5.5x3.0 mm,bottom side

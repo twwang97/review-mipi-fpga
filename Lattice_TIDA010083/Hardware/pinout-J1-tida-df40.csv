@@ -1,0 +1,54 @@
+# J1 - carrier board to TIDA-010083.  Hirose DF40C-50DS-0.4V, 0.4 mm pitch, 4 mm stack height.
+# Rows: pins 1-25 row A, pins 26-50 row B.  Mating half on the TIDA carrier is DF40HC(4.0)-50DP-0.4V.
+# Direction is relative to the CARRIER board.
+pin,net,direction,level,notes
+1,GND,-,-,
+2,+5V,in,5.0 V,2.3 A shared across pins 2-4 and 27-29 (0.38 A per contact)
+3,+5V,in,5.0 V,
+4,+5V,in,5.0 V,
+5,GND,-,-,
+6,+VIO_2V5,in,2.5 V,sets bank 1 VCCIO; remove TIDA R42 to drive this from the carrier instead
+7,GND,-,-,
+8,RGMII_GTX_CLK,out,LVCMOS25,125 MHz DDR - ground on both sides
+9,GND,-,-,
+10,RGMII_TXD0,out,LVCMOS25,
+11,RGMII_TXD1,out,LVCMOS25,
+12,GND,-,-,
+13,RGMII_TXD2,out,LVCMOS25,
+14,RGMII_TXD3,out,LVCMOS25,
+15,GND,-,-,
+16,RGMII_TX_CTL,out,LVCMOS25,
+17,GND,-,-,
+18,MDC,out,LVCMOS25,<= 25 MHz
+19,MDIO,bidir,LVCMOS25,2.2 k pull-up to +VIO on the carrier
+20,GND,-,-,
+21,PHY_RESET_N,out,LVCMOS25,push-pull; >= 1 us low; T1 = 195 us before first MDC
+22,PHY_INT_N,in,LVCMOS25,open drain; 2.2 k pull-up to +VIO; NEVER driven by the FPGA
+23,GND,-,-,
+24,ISO_IN_EN,out,LVCMOS25,ISO1212 enable
+25,GND,-,-,
+26,GND,-,-,
+27,+5V,in,5.0 V,
+28,+5V,in,5.0 V,
+29,+5V,in,5.0 V,
+30,GND,-,-,
+31,CLK_OUT_25M,in,LVCMOS25,PHY register 0x0170 = recovered RX clock / 5; drives the 1588 counter only
+32,GND,-,-,
+33,RGMII_RX_CLK,in,LVCMOS25,125 MHz DDR - ground on both sides
+34,GND,-,-,
+35,RGMII_RXD0,in,LVCMOS25,
+36,RGMII_RXD1,in,LVCMOS25,
+37,GND,-,-,
+38,RGMII_RXD2,in,LVCMOS25,
+39,RGMII_RXD3,in,LVCMOS25,
+40,GND,-,-,
+41,RGMII_RX_CTL,in,LVCMOS25,also a four-level strap pin - divider lives on the carrier
+42,GND,-,-,
+43,ISO_IN1,in,LVCMOS25,ISO1212 channel 1 - hardware trigger in
+44,ISO_IN2,in,LVCMOS25,ISO1212 channel 2
+45,GND,-,-,
+46,ISO_OUT1,out,LVCMOS25,optocoupler drive - busy/ready only, not a timed strobe
+47,GND,-,-,
+48,SPARE1,-,-,do not populate; reserved
+49,SPARE2,-,-,do not populate; reserved
+50,GND,-,-,

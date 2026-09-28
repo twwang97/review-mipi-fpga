@@ -1,0 +1,12 @@
+# Carrier board power budget.  Input is 5 V from TIDA-010083, up to 2.3 A (~11.0 W usable per Part 2 section 15).
+# Estimates unless marked datasheet.  Run the Lattice Power Calculator before trusting the FPGA row.
+rail,regulator,voltage_V,i_typ_A,i_max_A,p_typ_W,source_5V_W,loads,confidence
+VCC_1V0,TPS62802 (R = 23.7k),1.00,0.60,0.90,0.60,0.67,FPGA core,estimate
+VCC_1V35,TPS62802,1.35,0.30,0.45,0.41,0.45,DDR3L VDD/VDDQ + FPGA bank 4,estimate
+VCC_1V8,TPS62802,1.80,0.25,0.40,0.45,0.50,FPGA VCCAUX + bank 5 + sensor VDD_IO,estimate
+VCC_3V3,TPS62802,3.30,0.15,0.25,0.50,0.55,FPGA bank 2 + LEDs + sensor-board LDO feed,estimate
+VCC_1V2,TPS62801 (R = 44.2k),1.20,0.12,0.20,0.14,0.16,sensor digital + FPGA HP bank,estimate
++VIO_2V5,from TIDA R42,2.50,0.05,0.10,0.13,0.00,FPGA bank 1 VCCIO - supplied by TIDA,datasheet
+2V8_ANALOG,TPS7A20 on SENSOR board,2.80,0.10,0.15,0.28,0.35,VAA + VAA_PIX,datasheet
+TOTAL,,,,,2.51,2.68,,
+HEADROOM,,,,,,8.3,reserved for integrated illumination - budget it deliberately,

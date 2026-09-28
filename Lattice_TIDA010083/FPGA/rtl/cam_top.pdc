@@ -1,0 +1,147 @@
+#=====================================================================
+# cam_top.pdc - Lattice Radiant physical constraints
+# Device: LIFCL-40-9MG289I  (CrossLink-NX, 289-ball csBGA, 9.5 x 9.5 mm)
+#
+# READ THIS FIRST
+# ---------------
+# The ball numbers below are placeholders written as <BANKn:BALL>.
+# They are NOT real and the design will not build until they are
+# replaced. I will not guess ball assignments; they must come from the
+# authoritative sources:
+#
+#   FPGA-SC-02018  "CrossLink-NX LIFCL-40 Pinout"  (Lattice)
+#   the Radiant Device Constraint Editor for your exact package
+#
+# What IS specified here, and what actually matters architecturally,
+# is the BANK each signal must live in and the I/O standard it must
+# use. Those follow from the CrossLink-NX bank voltage capability and
+# from the TIDA-010083 and AR0234CS interface voltages, and they are
+# what constrains the floorplan.
+#
+# Bank capability on CrossLink-NX:
+#   Banks 0, 1, 2, 6, 7  Wide Range  - up to 3.3 V VCCIO
+#   Banks 3, 4, 5        High Perf.  - up to 1.8 V VCCIO
+#   Hardened MIPI D-PHY quads have their own dedicated pins and are
+#   not assigned here; they are connected through the Radiant-generated
+#   D-PHY IP instance.
+#=====================================================================
+
+#---------------------------------------------------------------------
+# VCCIO per bank
+#---------------------------------------------------------------------
+# Bank 1 : 2.5 V  - RGMII and PHY management, matching TIDA +VIO
+# Bank 2 : 3.3 V  - isolated digital I/O and LEDs
+# Bank 4 : 1.35 V - DDR3L
+# Bank 5 : 1.8 V  - AR0234CS control (I2C, reset, EXTCLK, trigger, flash)
+#
+# If R42 on the TIDA board is removed and +VIO is driven from this
+# board instead, change bank 1 to 1.8 V here AND supply 1.8 V to the
+# TIDA +VIO pin. Note the consequence documented in the hardware
+# README: at 1.8 V the DP83867 status LEDs go dim and need an
+# open-collector level shifter.
+
+#---------------------------------------------------------------------
+# Clocks and reset
+#---------------------------------------------------------------------
+ldc_set_location -site {<BANK1:BALL>} [get_ports clk_ref]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25} [get_ports clk_ref]
+ldc_set_location -site {<BANK2:BALL>} [get_ports por_n]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33 PULLMODE=UP} [get_ports por_n]
+
+#---------------------------------------------------------------------
+# RGMII to TIDA-010083  - bank 1, 2.5 V
+#
+# Length matching: match each group (TX and RX) to its own clock
+# within +/- 10 mil. Do NOT add 1.5 ns of extra clock trace: the
+# DP83867 is placed in Shift mode by phy_init and supplies the skew
+# itself. Doing both double-shifts the clock.
+#---------------------------------------------------------------------
+ldc_set_location -site {<BANK1:BALL>} [get_ports rgmii_rx_clk]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_rxd[0]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_rxd[1]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_rxd[2]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_rxd[3]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports rgmii_rx_ctl]
+ldc_set_location -site {<BANK1:BALL>} [get_ports rgmii_gtx_clk]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_txd[0]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_txd[1]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_txd[2]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports {rgmii_txd[3]}]
+ldc_set_location -site {<BANK1:BALL>} [get_ports rgmii_tx_ctl]
+
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25} [get_ports rgmii_rx_clk]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25} [get_ports rgmii_rxd*]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25} [get_ports rgmii_rx_ctl]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25 DRIVE=8 SLEWRATE=FAST} [get_ports rgmii_gtx_clk]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25 DRIVE=8 SLEWRATE=FAST} [get_ports rgmii_txd*]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25 DRIVE=8 SLEWRATE=FAST} [get_ports rgmii_tx_ctl]
+
+#---------------------------------------------------------------------
+# PHY management - bank 1, 2.5 V
+#
+# phy_mdio is split into o/oe/i at the top level; instantiate a
+# bidirectional buffer in the board-level wrapper. The external
+# 2.2 kohm pull-up to +VIO is on the carrier, not inside the FPGA.
+# phy_int_n is INPUT ONLY. The DP83867 pin defaults to POWER DOWN;
+# driving it low puts the PHY to sleep.
+#---------------------------------------------------------------------
+ldc_set_location -site {<BANK1:BALL>} [get_ports phy_mdc]
+ldc_set_location -site {<BANK1:BALL>} [get_ports phy_mdio_o]
+ldc_set_location -site {<BANK1:BALL>} [get_ports phy_reset_n]
+ldc_set_location -site {<BANK1:BALL>} [get_ports phy_int_n]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25} [get_ports phy_mdc]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25 OPENDRAIN=ON} [get_ports phy_mdio_o]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25} [get_ports phy_reset_n]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS25 PULLMODE=NONE} [get_ports phy_int_n]
+
+#---------------------------------------------------------------------
+# Isolated field I/O via TIDA J4 - bank 2, 3.3 V
+#---------------------------------------------------------------------
+ldc_set_location -site {<BANK2:BALL>} [get_ports {iso_in[0]}]
+ldc_set_location -site {<BANK2:BALL>} [get_ports {iso_in[1]}]
+ldc_set_location -site {<BANK2:BALL>} [get_ports iso_in_en]
+ldc_set_location -site {<BANK2:BALL>} [get_ports iso_out]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports iso_in*]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports iso_in_en]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33 DRIVE=8} [get_ports iso_out]
+
+#---------------------------------------------------------------------
+# AR0234CS control - bank 5, 1.8 V
+#
+# The CSI-2 lanes themselves are NOT here: they go to a hardened
+# D-PHY quad through the Radiant-generated MIPI IP, which brings its
+# own dedicated pins.
+#---------------------------------------------------------------------
+ldc_set_location -site {<BANK5:BALL>} [get_ports cam_scl_oe]
+ldc_set_location -site {<BANK5:BALL>} [get_ports cam_sda_oe]
+ldc_set_location -site {<BANK5:BALL>} [get_ports cam_sda_i]
+ldc_set_location -site {<BANK5:BALL>} [get_ports cam_reset_n]
+ldc_set_location -site {<BANK5:BALL>} [get_ports cam_extclk]
+ldc_set_location -site {<BANK5:BALL>} [get_ports cam_trigger]
+ldc_set_location -site {<BANK5:BALL>} [get_ports cam_flash]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18 OPENDRAIN=ON} [get_ports cam_scl_oe]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18 OPENDRAIN=ON} [get_ports cam_sda_oe]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports cam_sda_i]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports cam_reset_n]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18 DRIVE=8 SLEWRATE=FAST} [get_ports cam_extclk]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18 DRIVE=8 SLEWRATE=FAST} [get_ports cam_trigger]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports cam_flash]
+
+#---------------------------------------------------------------------
+# Indicators - bank 2, 3.3 V
+#---------------------------------------------------------------------
+ldc_set_location -site {<BANK2:BALL>} [get_ports {led[0]}]
+ldc_set_location -site {<BANK2:BALL>} [get_ports {led[1]}]
+ldc_set_location -site {<BANK2:BALL>} [get_ports {led[2]}]
+ldc_set_location -site {<BANK2:BALL>} [get_ports {led[3]}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33 DRIVE=8} [get_ports led*]
+
+#---------------------------------------------------------------------
+# DDR3L - bank 4, 1.35 V
+#
+# The DDR user port on cam_top is internal. The physical DDR3L pins
+# belong to the Radiant-generated memory controller, which brings its
+# own pin constraints. Reserve bank 4 for it and do not place any
+# other signal there.
+#---------------------------------------------------------------------
+# (no entries: generated by the DDR3L controller IP)

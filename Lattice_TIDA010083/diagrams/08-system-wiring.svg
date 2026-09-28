@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1110" width="1440" height="1110" role="img" aria-label="Wiring between TIDA-010083, LIFCL-40 FPGA and AR0234CS camera" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1OTUwMDYyMC0xZjY5LTRiNGItOTY5NS0wNTVhZmM1ZWFlNGQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaO5hHiRG8qQDNcpoRD69v/QAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphNDg2MDZmZC0xOGQ2LTQ2NDctYWUwOC1kOTU5MGNkNTM1MDlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNouJCma/Bhky+cbFTsAQDkHQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggJ+/i+jJv+pnsGfCW7cbmD475f0tdTTSnoxBqk4aAZdKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaP9QKwLSu03zbLhpEBWsd+UAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBOao9CF32XSzJBtQSusRSI7O4dHVcDgTyXt45hb2+EC2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjwZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjU5NTAwNjIwLTFmNjktNGI0Yi05Njk1LTA1NWFmYzVlYWU0ZC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjg0ZjQzZTJhLWYxMTctNGVhMy1iZDU1LTI5YjQyYzM4NmE3ZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAn7+L6Mm/6mewZ8JbtxuYPjvl/S11NNKejEGqThoBl0qJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggdrwivy0gI0KVa/V/YqHpJdc2O4FOyp44NvzQif698ZyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggfXoaz1xJrMFjHEBuA3coXKpVLZR9o5JZMH4GxclrOLh0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQO0RRyT6gmCPONXC5raSNPKqpUzf9HU0tTkwvdd+Hfn4Z2zLfSKRB9Yd4e8AywrpDvLCjohx2sMVIwzUuIPox44=</c2pa:manifest></metadata>
+<style>
+  .bg{fill:#F6F8FA}
+  .t{font-family:'IBM Plex Sans','Inter','Helvetica Neue',Arial,sans-serif;fill:#16202A}
+  .m{font-family:'IBM Plex Mono','Roboto Mono',Menlo,Consolas,monospace;fill:#16202A}
+  .title{font-size:23px;font-weight:600}
+  .sub{font-size:12.5px;fill:#5A6B78}
+  .blk{font-size:14px;font-weight:600}
+  .blk2{font-size:11.5px;font-weight:600}
+  .pn{font-size:10px;fill:#61727E}
+  .lbl{font-size:10px;fill:#41525E}
+  .pin{font-size:10.5px}
+  .bus{font-size:10.5px;font-weight:600}
+  .w{fill:none;stroke-width:2}
+  .stub{stroke-width:1.6}
+</style>
+<defs>
+  <marker id="r1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1E7A5C"/></marker>
+  <marker id="r2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#384C99"/></marker>
+  <marker id="r3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#8C3A6B"/></marker>
+  <marker id="r4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#61761A"/></marker>
+  <marker id="r5" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#B5742A"/></marker>
+  <marker id="r6" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#6B3FA0"/></marker>
+  <marker id="l2" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 z" fill="#384C99"/></marker>
+  <marker id="l3" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 z" fill="#8C3A6B"/></marker>
+  <marker id="l5" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 z" fill="#B5742A"/></marker>
+  <marker id="l6" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 z" fill="#6B3FA0"/></marker>
+</defs>
+<rect class="bg" x="0" y="0" width="1440" height="1110"/>
+<text class="t title" x="40" y="46">Wiring — TIDA-010083 · CrossLink-NX FPGA · AR0234CS camera</text>
+<text class="t sub" x="40" y="70">One CAT6 cable in, GigE Vision video out. The FPGA is the only device in the system that speaks both MIPI and Ethernet, so every signal crosses it.</text>
+
+<!-- ================ BLOCKS ================ -->
+<rect x="60" y="110" width="340" height="516" fill="#FFFFFF" stroke="#3E9A77" stroke-width="1.8" rx="6"/>
+<rect x="60" y="110" width="340" height="52" fill="#EFF8F3" stroke="#3E9A77" rx="6"/>
+<text class="t blk" x="230" y="136" text-anchor="middle">TIDA-010083</text>
+<text class="t pn" x="230" y="153" text-anchor="middle">PoE PD + DP83867IR GigE PHY · 27 × 27 mm</text>
+
+<rect x="560" y="110" width="320" height="516" fill="#FFFFFF" stroke="#6E9CB8" stroke-width="1.8" rx="6"/>
+<rect x="560" y="110" width="320" height="52" fill="#EFF4F8" stroke="#6E9CB8" rx="6"/>
+<text class="t blk" x="720" y="136" text-anchor="middle">LIFCL-40-9BG400I</text>
+<text class="t pn" x="720" y="153" text-anchor="middle">CrossLink-NX · caBGA-400 · 1.0 V core</text>
+
+<rect x="1040" y="110" width="340" height="516" fill="#FFFFFF" stroke="#B896CC" stroke-width="1.8" rx="6"/>
+<rect x="1040" y="110" width="340" height="52" fill="#F7F1FA" stroke="#B896CC" rx="6"/>
+<text class="t blk" x="1210" y="136" text-anchor="middle">onsemi AR0234CS</text>
+<text class="t pn" x="1210" y="153" text-anchor="middle">1920 × 1200 global shutter · ODCSP-83</text>
+
+<!-- FPGA internal function labels, centred, clear of both pin columns -->
+<g>
+  <rect x="652" y="178" width="136" height="424" fill="#FAFCFD" stroke="#D3DDE3" rx="4"/>
+  <text class="t blk2" x="720" y="200" text-anchor="middle">Inside</text>
+  <text class="t pn" x="720" y="224" text-anchor="middle">tri-speed MAC</text>
+  <text class="t pn" x="720" y="240" text-anchor="middle">(soft IP)</text>
+  <text class="t pn" x="720" y="264" text-anchor="middle">UDP/IP + GVSP</text>
+  <text class="t pn" x="720" y="280" text-anchor="middle">packetiser</text>
+  <text class="t pn" x="720" y="304" text-anchor="middle">MDIO master</text>
+  <text class="t pn" x="720" y="328" text-anchor="middle">PLL: 125 MHz</text>
+  <text class="t pn" x="720" y="344" text-anchor="middle">and 24 MHz</text>
+  <text class="t pn" x="720" y="368" text-anchor="middle">hardened D-PHY</text>
+  <text class="t pn" x="720" y="384" text-anchor="middle">RX quad</text>
+  <text class="t pn" x="720" y="408" text-anchor="middle">ISP: unpack,</text>
+  <text class="t pn" x="720" y="424" text-anchor="middle">BLC, gain, ROI,</text>
+  <text class="t pn" x="720" y="440" text-anchor="middle">binning</text>
+  <text class="t pn" x="720" y="464" text-anchor="middle">DDR3L controller</text>
+  <text class="t pn" x="720" y="488" text-anchor="middle">I²C master</text>
+  <text class="t pn" x="720" y="512" text-anchor="middle">trigger timestamp</text>
+  <text class="t pn" x="720" y="536" text-anchor="middle">unit</text>
+  <text class="t pn" x="720" y="562" text-anchor="middle">point-of-load</text>
+  <text class="t pn" x="720" y="578" text-anchor="middle">rails from +5 V</text>
+</g>
+
+<!-- ================ LEFT LINK : TIDA <-> FPGA ================ -->
+<g>
+  <!-- 1 power -->
+  <text class="m pin" x="380" y="186" text-anchor="end" fill="#1E7A5C">+5V / GND</text>
+  <text class="m pin" x="574" y="186" fill="#1E7A5C">VIN 5V</text>
+  <path class="w" d="M400,190 H560" stroke="#1E7A5C" marker-end="url(#r1)"/>
+  <text class="t bus" x="480" y="180" text-anchor="middle" fill="#1E7A5C">≤ 2.3 A</text>
+
+  <!-- 2 VIO -->
+  <text class="m pin" x="380" y="228" text-anchor="end" fill="#2A6C93">+VIO</text>
+  <text class="m pin" x="574" y="228" fill="#2A6C93">VCCIO bank</text>
+  <path class="w" d="M400,232 H560" stroke="#2A6C93" marker-end="url(#r1)"/>
+  <text class="t bus" x="480" y="222" text-anchor="middle" fill="#2A6C93">2.5 V reference</text>
+
+  <!-- 3 RGMII TX -->
+  <text class="m pin" x="380" y="276" text-anchor="end" fill="#384C99">GTX_CLK</text>
+  <text class="m pin" x="380" y="290" text-anchor="end" fill="#384C99">TX_CTRL</text>
+  <text class="m pin" x="380" y="304" text-anchor="end" fill="#384C99">TXD[3:0]</text>
+  <text class="m pin" x="574" y="290" fill="#384C99">MAC TX</text>
+  <path class="w" d="M560,290 H400" stroke="#384C99" marker-end="url(#l2)"/>
+  <text class="t bus" x="480" y="282" text-anchor="middle" fill="#384C99">RGMII TX · 6 nets</text>
+
+  <!-- 4 RGMII RX -->
+  <text class="m pin" x="380" y="338" text-anchor="end" fill="#384C99">RX_CLK</text>
+  <text class="m pin" x="380" y="352" text-anchor="end" fill="#384C99">RX_CTRL</text>
+  <text class="m pin" x="380" y="366" text-anchor="end" fill="#384C99">RXD[3:0]</text>
+  <text class="m pin" x="574" y="352" fill="#384C99">MAC RX</text>
+  <path class="w" d="M400,352 H560" stroke="#384C99" marker-end="url(#r2)"/>
+  <text class="t bus" x="480" y="344" text-anchor="middle" fill="#384C99">RGMII RX · 6 nets</text>
+
+  <!-- 5 MDIO -->
+  <text class="m pin" x="380" y="404" text-anchor="end" fill="#8C3A6B">MDC / MDIO</text>
+  <text class="m pin" x="574" y="404" fill="#8C3A6B">MDIO master</text>
+  <path class="w" d="M400,408 H560" stroke="#8C3A6B" marker-end="url(#r3)" marker-start="url(#l3)"/>
+  <text class="t bus" x="480" y="398" text-anchor="middle" fill="#8C3A6B">2.2 kΩ to +VIO</text>
+
+  <!-- 6 reset / int -->
+  <text class="m pin" x="380" y="448" text-anchor="end" fill="#8C3A6B">RESET_N</text>
+  <text class="m pin" x="380" y="476" text-anchor="end" fill="#8C3A6B">INT/PWDN</text>
+  <text class="m pin" x="574" y="448" fill="#8C3A6B">PHY_RST</text>
+  <text class="m pin" x="574" y="476" fill="#8C3A6B">IRQ in</text>
+  <path class="w" d="M560,452 H400" stroke="#8C3A6B" marker-end="url(#l3)"/>
+  <path class="w" d="M400,480 H560" stroke="#8C3A6B" marker-end="url(#r3)"/>
+  <text class="t bus" x="480" y="444" text-anchor="middle" fill="#8C3A6B">≥ 1 µs low</text>
+  <text class="t bus" x="480" y="496" text-anchor="middle" fill="#8C3A6B">open drain</text>
+
+  <!-- 7 clkout -->
+  <text class="m pin" x="380" y="528" text-anchor="end" fill="#61761A">CLK_OUT</text>
+  <text class="m pin" x="574" y="528" fill="#61761A">REFCLK</text>
+  <path class="w" d="M400,532 H560" stroke="#61761A" marker-end="url(#r4)"/>
+  <text class="t bus" x="480" y="522" text-anchor="middle" fill="#61761A">25 MHz, network-locked</text>
+
+  <!-- 8 isolated IO -->
+  <text class="m pin" x="380" y="576" text-anchor="end" fill="#B5742A">In1 / In2</text>
+  <text class="m pin" x="380" y="604" text-anchor="end" fill="#B5742A">In_En / Out1</text>
+  <text class="m pin" x="574" y="576" fill="#B5742A">trigger in</text>
+  <text class="m pin" x="574" y="604" fill="#B5742A">enable, strobe</text>
+  <path class="w" d="M400,580 H560" stroke="#B5742A" marker-end="url(#r5)"/>
+  <path class="w" d="M560,608 H400" stroke="#B5742A" marker-end="url(#l5)"/>
+  <text class="t bus" x="480" y="570" text-anchor="middle" fill="#B5742A">ISO1212, &lt; 150 ns</text>
+</g>
+
+<!-- ================ RIGHT LINK : FPGA <-> CAMERA ================ -->
+<g>
+  <!-- power -->
+  <text class="m pin" x="866" y="186" text-anchor="end" fill="#1E7A5C">PoL out</text>
+  <text class="m pin" x="1054" y="186" fill="#1E7A5C">VDD / VDD_IO / VAA</text>
+  <path class="w" d="M880,190 H1040" stroke="#1E7A5C" marker-end="url(#r1)"/>
+  <text class="t bus" x="960" y="180" text-anchor="middle" fill="#1E7A5C">1.2 / 1.8 / 2.8 V</text>
+
+  <!-- CSI-2 -->
+  <text class="m pin" x="866" y="240" text-anchor="end" fill="#6B3FA0">D-PHY RX</text>
+  <text class="m pin" x="1054" y="226" fill="#6B3FA0">CLK_P/N</text>
+  <text class="m pin" x="1054" y="254" fill="#6B3FA0">DATA0..3_P/N</text>
+  <path class="w" d="M1040,240 H880" stroke="#6B3FA0" stroke-width="3" marker-end="url(#l6)"/>
+  <text class="t bus" x="960" y="232" text-anchor="middle" fill="#6B3FA0">MIPI CSI-2 · 5 pairs</text>
+  <text class="t bus" x="960" y="270" text-anchor="middle" fill="#6B3FA0">100 Ω diff · ≤ 2.5 Gb/s per lane</text>
+
+  <!-- I2C -->
+  <text class="m pin" x="866" y="308" text-anchor="end" fill="#8C3A6B">I²C master</text>
+  <text class="m pin" x="1054" y="308" fill="#8C3A6B">SCLK / SDATA</text>
+  <path class="w" d="M880,312 H1040" stroke="#8C3A6B" marker-end="url(#r3)" marker-start="url(#l3)"/>
+  <text class="t bus" x="960" y="302" text-anchor="middle" fill="#8C3A6B">2.2 kΩ to 1.8 V</text>
+
+  <!-- reset -->
+  <text class="m pin" x="866" y="356" text-anchor="end" fill="#8C3A6B">CAM_RST</text>
+  <text class="m pin" x="1054" y="356" fill="#8C3A6B">RESET_BAR</text>
+  <path class="w" d="M880,360 H1040" stroke="#8C3A6B" marker-end="url(#r3)"/>
+
+  <!-- extclk -->
+  <text class="m pin" x="866" y="404" text-anchor="end" fill="#61761A">PLL out</text>
+  <text class="m pin" x="1054" y="404" fill="#61761A">EXTCLK</text>
+  <path class="w" d="M880,408 H1040" stroke="#61761A" marker-end="url(#r4)"/>
+  <text class="t bus" x="960" y="398" text-anchor="middle" fill="#61761A">24 MHz (6–54 MHz valid)</text>
+
+  <!-- trigger -->
+  <text class="m pin" x="866" y="464" text-anchor="end" fill="#B5742A">trig out</text>
+  <text class="m pin" x="1054" y="464" fill="#B5742A">TRIGGER</text>
+  <path class="w" d="M880,468 H1040" stroke="#B5742A" marker-end="url(#r5)"/>
+  <text class="t bus" x="960" y="458" text-anchor="middle" fill="#B5742A">global shutter snapshot</text>
+
+  <!-- flash -->
+  <text class="m pin" x="866" y="516" text-anchor="end" fill="#B5742A">flash in</text>
+  <text class="m pin" x="1054" y="516" fill="#B5742A">FLASH</text>
+  <path class="w" d="M1040,520 H880" stroke="#B5742A" marker-end="url(#l5)"/>
+  <text class="t bus" x="960" y="508" text-anchor="middle" fill="#B5742A">exposure active</text><text class="t bus" x="960" y="540" text-anchor="middle" fill="#B5742A">drives the strobe</text>
+
+  <!-- note -->
+  <text class="t lbl" x="960" y="570" text-anchor="middle">Second hardened D-PHY quad</text>
+  <text class="t lbl" x="960" y="586" text-anchor="middle">is unused — a second sensor</text>
+  <text class="t lbl" x="960" y="602" text-anchor="middle">needs no re-layout of this link.</text>
+</g>
+
+<!-- external world hints -->
+<path class="w" d="M60,300 H34 V420 H60" stroke="#A6402F" fill="none"/>
+<text class="t lbl" x="40" y="348" fill="#A6402F" transform="rotate(-90 40 348)" text-anchor="middle">RJ45 · J4</text>
+
+
+<!-- ================ ANNOTATION PANELS ================ -->
+<rect x="40" y="654" width="440" height="230" fill="#FFFFFF" stroke="#3E9A77" rx="5"/>
+<text class="t blk2" x="58" y="678">What TIDA-010083 hands over</text>
+<text class="t lbl" x="58" y="700">· 5 V ±2 %, up to 2.3 A — about 11 W after the PHY takes its share</text>
+<text class="t lbl" x="58" y="718">· A complete 10/100/1000 PHY, already matched to the magnetics</text>
+<text class="t lbl" x="58" y="736">· RGMII at 2.5 V, or any I/O voltage you like if R42 is removed</text>
+<text class="t lbl" x="58" y="754">· Two isolated digital inputs and one isolated output on J4</text>
+<text class="t lbl" x="58" y="772">· A 24 V auxiliary input that overrides PoE — invaluable on the bench</text>
+<text class="t lbl" x="58" y="796" font-weight="600">What it expects back</text>
+<text class="t lbl" x="58" y="814">· PHY address and RGMII skew straps, fitted on your carrier</text>
+<text class="t lbl" x="58" y="832">· An MDIO master to configure the PHY out of its defaults</text>
+<text class="t lbl" x="58" y="850">· A MAC that respects the 200 ms / 195 µs register-access windows</text>
+<text class="t lbl" x="58" y="868">· Controlled-impedance, length-matched RGMII on the carrier side</text>
+
+<rect x="500" y="654" width="440" height="230" fill="#FFFFFF" stroke="#6E9CB8" rx="5"/>
+<text class="t blk2" x="518" y="678">Why CrossLink-NX LIFCL-40</text>
+<text class="t lbl" x="518" y="700">· Two hardened 4-lane D-PHY quads, 2.5 Gb/s per lane. No soft</text>
+<text class="t lbl" x="530" y="716">D-PHY, no external resistor networks, no timing closure gamble.</text>
+<text class="t lbl" x="518" y="738">· Wide-range banks take 1.2 / 1.5 / 1.8 / 2.5 / 3.3 V, so RGMII at</text>
+<text class="t lbl" x="530" y="754">2.5 V connects with no level translation anywhere.</text>
+<text class="t lbl" x="518" y="776">· Lattice specifically recommends RGMII over the SGMII-on-LVDS</text>
+<text class="t lbl" x="530" y="792">path for gigabit Ethernet across the full temperature range —</text>
+<text class="t lbl" x="530" y="808">which is exactly the interface TIDA-010083 exposes.</text>
+<text class="t lbl" x="518" y="830">· 28 nm FD-SOI: low power and very low soft-error rate, both of</text>
+<text class="t lbl" x="530" y="846">which matter in a sealed 29 mm housing with no airflow.</text>
+<text class="t lbl" x="518" y="868">· DDR3L / LPDDR2 controller with x16 DQS for the frame buffer.</text>
+
+<rect x="960" y="654" width="440" height="230" fill="#FFFFFF" stroke="#B896CC" rx="5"/>
+<text class="t blk2" x="978" y="678">Why AR0234CS</text>
+<text class="t lbl" x="978" y="700">· Global shutter — no skew on parts moving past the lens, which</text>
+<text class="t lbl" x="990" y="716">is the entire point of a machine-vision camera.</text>
+<text class="t lbl" x="978" y="738">· CSI-2 1.2 over 1, 2 or 4 lanes, 8 or 10 bit, 120 fps at full</text>
+<text class="t lbl" x="990" y="754">resolution. Lane count is a configuration choice, not a redesign.</text>
+<text class="t lbl" x="978" y="776">· Under 420 mW at the worst case — about 4 % of the PoE budget.</text>
+<text class="t lbl" x="978" y="798">· Window control, binning and skipping in the sensor, so the</text>
+<text class="t lbl" x="990" y="814">FPGA can trade resolution for frame rate without wasting bandwidth.</text>
+<text class="t lbl" x="978" y="836">· Hardware TRIGGER in and FLASH out, which close the loop from</text>
+<text class="t lbl" x="990" y="852">the isolated field input to the strobe with no software in the path.</text>
+<text class="t lbl" x="978" y="874">· Accepts spread-spectrum EXTCLK, useful for EN 55011 class B.</text>
+
+<!-- integration notes -->
+<rect x="40" y="902" width="1360" height="186" fill="#FFFDF5" stroke="#CBBE8E" rx="5"/>
+<text class="t blk2" x="58" y="926">Integration notes that decide whether this works first time</text>
+<text class="t lbl" x="58" y="950">1 · Pick one RGMII delay source. Either put the DP83867 in Shift mode and dial the skew in 0.25 ns steps, or add ≥ 1.5 ns of clock trace on the carrier. Doing both breaks gigabit while 100 Mb/s still passes.</text>
+<text class="t lbl" x="58" y="972">2 · Leave INT/PWDN floating from the FPGA side. It powers the PHY down if driven low, and it is an input until software says otherwise. Configure it as an input with an external 2.2 kΩ pull-up to +VIO.</text>
+<text class="t lbl" x="58" y="994">3 · Fit the four-level strap dividers for PHY address and RGMII skew on the carrier, referenced to +VIO. The TIDA schematic says outright that this strapping is expected on the other board.</text>
+<text class="t lbl" x="58" y="1016">4 · Feed the camera's analogue rails from an LDO. The 4 MHz point-of-load switchers are excellent for logic and wrong for VAA and VAA_PIX, where ripple becomes visible banding.</text>
+<text class="t lbl" x="58" y="1038">5 · Budget FPGA configuration time against the PHY's 200 ms post-power-up window. The window starts when the rails come up, not when the FPGA finishes loading from flash.</text>
+<text class="t lbl" x="58" y="1060">6 · Route CSI-2 as 100 Ω differential pairs with tight intra-pair matching and a continuous reference plane. Keep them away from the 125 MHz RGMII group and from the switching nodes of every regulator.</text>
+<text class="t lbl" x="58" y="1082">7 · If the board must run standalone on the bench, feed 24 V into J4 — the auxiliary input takes priority above ≈15 V and bypasses PoE detection and classification entirely.</text>
+</svg>
